@@ -19,7 +19,7 @@
 #  If you're hosting a blogofile powered site as a subdirectory of a larger
 #  non-blogofile site, then you would set the site_url to the full URL
 #  including that subdirectory: "http://www.yoursite.com/path/to/blogofile-dir"
-site.url = "http://www.yoursite.com"
+site.url = "http://www.robinince.net"
 
 #### Blog Settings ####
 blog = controllers.blog
@@ -38,11 +38,38 @@ blog.path = "/blog"
 
 ## blog_name -- Your Blog's name.
 # This is used repeatedly in default blog templates
-blog.name = "Your Blog's Name"
+blog.name = "Robin's Blog"
 
 ## blog_description -- A short one line description of the blog
 # used in the RSS/Atom feeds.
-blog.description = "Your Blog's short description"
+blog.description = "Nerdy bona fides to help employment prospects"
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
-blog.timezone = "US/Eastern"
+blog.timezone = "Europe/Berlin"
+
+## blog_posts_per_page -- Blog posts per page
+blog.posts_per_page = 5
+
+#### Disqus.com comment integration ####
+blog.disqus.enabled = False
+blog.disqus.name = "your_disqus_name"
+
+#### Blog post syntax highlighting ####
+# You can change the style to any builtin Pygments style
+# or, make your own: http://pygments.org/docs/styles
+filters.syntax_highlight.style = "monokai"
+filters.syntax_highlight.css_dir = "/css"
+#### Custom blog index ####
+# If you want to create your own index page at your blog root
+# turn this on. Otherwise blogofile assumes you want the
+# first X posts displayed instead
+blog.custom_index = False
+
+#### Post excerpts ####
+# If you want to generate excerpts of your posts in addition to the
+# full post content turn this feature on
+blog.post_excerpts.enabled = True
+blog.post_excerpts.word_length = 25
+#Also, if you don't like the way the post excerpt is generated
+#You can define assign a new function to blog.post_excerpts.method
+#This method must accept the following arguments: (content, num_words)
