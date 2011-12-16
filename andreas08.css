@@ -5,7 +5,7 @@ For more information, see http://andreasviklund.com/templates/andreas08/
 
 /* Body and tag styles */
 * {margin:0; padding:0;}
-body {font:76% Verdana,Tahoma,Arial,sans-serif; line-height:1.4em; text-align:center; color:#303030; background:#e8eaec;}
+body {font:90% Verdana,Tahoma,Arial,sans-serif; line-height:1.4em; text-align:center; color:#303030; background:#e8eaec;}
 a {color:#467aa7; font-weight:bold; text-decoration:none; background-color:inherit;}
 a:hover {color:#2a5a8a; text-decoration:none; background-color:inherit;}
 a img {border:none;}
@@ -28,15 +28,15 @@ img.right {float:right; margin:0 0 5px 12px;}
 #navigation .selected,#navigation a:hover {background:#80b0da; color:#ffffff; text-decoration:none;}
 
 /* Content styles */
-#content {float:left; width:530px; font-size:0.9em; padding:20px 0 0 20px;}
-#content h2 {display:block; margin:0 0 16px 0; font-size:1.7em; font-weight:normal; letter-spacing:-1px; color:#505050; background-color:inherit;}
-#content h2 a {font-weight:normal;}
-#content h3 {margin:0 0 5px 0; font-size:1.2em; font-weight:normal; letter-spacing:-1px; color:#505050;}
-#content a:hover,#subcontent a:hover {text-decoration:underline;}
-#content ul,#content ol {margin:0 5px 16px 35px;}
-#content dl {margin:0 5px 10px 25px;}
-#content dt {font-weight:bold; margin-bottom:5px;}
-#content dd {margin:0 0 10px 15px;}
+.content {float:left; width:530px; font-size:0.9em; padding:20px 0 0 20px;}
+.content h2 {display:block; margin:0 0 16px 0; font-size:1.7em; font-weight:normal; letter-spacing:-1px; color:#505050; background-color:inherit;}
+.content h2 a {font-weight:normal;}
+.content h3 {margin:0 0 5px 0; font-size:1.2em; font-weight:normal; letter-spacing:-1px; color:#505050;}
+.content a:hover,#subcontent a:hover {text-decoration:underline;}
+.content ul,#content ol {margin:0 5px 16px 35px;}
+.content dl {margin:0 5px 10px 25px;}
+.content dt {font-weight:bold; margin-bottom:5px;}
+.content dd {margin:0 0 10px 15px;}
 
 /* Content styles */
 #contentfull {float:left; width:700px; font-size:0.9em; padding:20px 0 0 20px;}
@@ -55,7 +55,7 @@ img.right {float:right; margin:0 0 5px 12px;}
 #subcontent p {margin:0 0 16px 0; font-size:0.9em;}
 
 /* Menublock styles */
-.menublock {margin:0 0 20px 8px; width:150px; font-size:0.9em; position:fixed; padding:10px; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050;}
+.menublock {margin:0 0 20px 8px; width:150px; font-size:0.8em; position:fixed; padding:10px; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050;}
 .menublock li {list-style:none; display:block; padding:2px; margin-bottom:6px; line-height:1.2em;}
 .menublock li a {font-weight:bold; text-decoration:none;}
 .menublock li a:hover {text-decoration:none;}
@@ -90,7 +90,7 @@ img.right {float:right; margin:0 0 5px 12px;}
 #bib li {margin:0.5em 10% 1em 0}
 
 /* blog_post styles */
-.blog_post {float:left; width:530px; font-size:0.9em; padding:20px 0 0 20px;}
+.blog_post {float:left; width:530px; font-size:0.8em; padding:20px 0 0 20px;}
 .blog_post h2 {display:block; margin:0 0 5px 0; font-size:1.7em; font-weight:normal; letter-spacing:-1px; color:#505050; background-color:inherit;}
 .blog_post h2 a {font-weight:normal;}
 .blog_post h3 {margin:0 0 5px 0; font-size:1.2em; font-weight:normal; letter-spacing:-1px; color:#505050;}

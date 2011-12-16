@@ -1,4 +1,4 @@
-<div id="content" markdown="1">
+<div class="content" markdown="1">
 ##<a name="cn"></a>Computational Neuroscience
 
 ###<a name="ln"></a>Lectures/Notes

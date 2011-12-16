@@ -1,5 +1,5 @@
 <%inherit file="_templates/site.mako" />
-<div id="content">
+<div class="content">
 ${self.rawmarkdown('_pages/about.markdown')}
 </div>
 

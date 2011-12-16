@@ -1,7 +1,7 @@
 <%page args="ishome"/>\
 <meta name="author" content="Robin Ince" />
     <link rel="stylesheet" type="text/css" href="${bf.util.site_path_helper('/andreas08.css')}" title="default" media="screen,projection" />
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
 % if ishome:
     <title>Home Page of Robin Ince</title>
     <meta name="description" content="Robin Ince - Home Page" />

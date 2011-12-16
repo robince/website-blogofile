@@ -8,10 +8,10 @@
         cat = category
 %>\
 % if cat:
-<div id="content">
+<div class="content">
 <div class="textcenter">
 <div class="category_title">
-Showing posts in category <b>${cat}</b>. <a href=${bf.config.blog.path}>Show all posts</a>
+Showing posts in category <b>${cat}</b>. <a href="${bf.config.blog.path}">Show all posts</a>
 </div>
 </div>
 </div>
@@ -19,7 +19,7 @@ Showing posts in category <b>${cat}</b>. <a href=${bf.config.blog.path}>Show all
 % for post in posts:
   <%include file="post.mako" args="post=post, sep=True" />
 % endfor
-<div id="content">
+<div class="content">
 % if prev_link:
  <a href="${prev_link}">« Previous Page</a>
 % endif
@@ -30,7 +30,7 @@ Showing posts in category <b>${cat}</b>. <a href=${bf.config.blog.path}>Show all
  <a href="${next_link}">Next Page »</a>
 % endif
 % if prev_link or next_link:
-    <br>
-    <br>
+    <br/>
+    <br/>
 % endif
 </div>
