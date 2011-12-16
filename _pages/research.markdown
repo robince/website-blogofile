@@ -1,9 +1,5 @@
 <div id="content" markdown="1">
 
-I am a postdoc in the [Logothetis group](http://www.kyb.mpg.de/lo/index.html) at the [Max Planck Institute for Biological Cybernetics](http://www.kyb.mpg.de/), where I work with [Nikos Logothetis](http://www.kyb.mpg.de/~nikos) and [Stefano Panzeri](http://www.iit.it/en/people.html?view=profile&layout=profile&id=289) on analysing data from neurological signals using techniques such as information theory.
-
-Before this, I did my PhD in the Petersen lab at the University of Manchester. For my PhD I was jointly supervised by [Rasmus Petersen](http://www.ls.manchester.ac.uk/people/profile/index.aspx?PersonID=1302) (University of Manchester) and [Stefano Panzeri](http://www.iit.it/en/people.html?view=profile&layout=profile&id=289) (IIT, Genoa).
-
 ## <a name="research"></a>Research Interests
 I am interested in using mathematical tools, primarily from information theory, to understand neural coding; that is how neurons represent information about the outside world.
 Understanding how neurons represent information is an important step to understanding how they process that information, which is a key question underlying behaviour and consciousness
