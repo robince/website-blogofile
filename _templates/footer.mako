@@ -1,6 +1,11 @@
-<p id="credits">
-Powered by <a href="http://www.blogofile.com">Blogofile</a>.<br/>
+<%page args="ishome"/>
+
+<p>&copy; 2011 Robin Ince;
+ Powered by <a href="http://www.blogofile.com">Blogofile</a>;
+ Design by <a href="http://andreasviklund.com/templates/">Andreas Viklund</a>; 
+ Last Modified: 
 <br/>
+% if not ishome:
 RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
 % if bf.config.blog.disqus.enabled:
  and <a
@@ -23,4 +28,5 @@ href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">Comments</a>.
 	})();
 //]]>
 </script>
+% endif
 % endif
