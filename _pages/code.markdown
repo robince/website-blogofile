@@ -23,4 +23,7 @@ much easier.
 modifications to support gfortran on Linux as well as the `-largeArrayDims` 64 bit
 interface on all platforms.
 
+## Miscellaneous
+Other snippets and thoughts can be found on my [blog](blog/category/code).
+
 <!-- vim: set ts=2 sw=2 ft=mkd :-->

@@ -1,4 +1,4 @@
-<div id="content" markdown="1">
+<div class="content" markdown="1">
 
 ## <a name="research"></a>Research Interests
 I am interested in using mathematical tools, primarily from information theory, to understand neural coding; that is how neurons represent information about the outside world.
@@ -15,9 +15,10 @@ I am also interested in using numerical optimisation techniques to maximise info
 * <a name="ince2011ant"></a> RAA Ince\*, A Mazzoni\*, A Bartels, NK Logothetis and S Panzeri  
 	**A novel test to determine the significance of neural selectivity to single and multiple potentially correlated features**  
   *Journal of Neuroscience Methods* (in press)
-* <a name="panzeri2011ita"></a> S Panzeri and RAA Ince  
+* <a name="panzeri2011ita"></a> S Panzeri and RAA Ince (2011)
 	**Information theoretic approaches to the analysis of neural population recordings**  
-	in N Kriegeskorte and G Kreiman (Eds)  *Understanding visual population codes - towards a common multivariate framework for cell recording and functional imaging*, MIT Press (in press)
+	in N Kriegeskorte and G Kreiman (Eds)  *Visual population codes: toward a common multivariate framework for cell recording and functional imaging*, MIT Press  
+  \[ [LINK (amazon)](http://www.amazon.com/Visual-Population-Codes-Multivariate-Computational/dp/0262016249) \]
 
 ### <a name="2010"></a>2010
 * <a name="ince2010itm"></a> RAA Ince, R Senatore, E Arabzadeh, F Montani, ME Diamond and S Panzeri  
@@ -53,7 +54,7 @@ I am also interested in using numerical optimisation techniques to maximise info
   \[ [LINK (Open Access)](http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2009/) \]
 
 </div>
-	* - These authors contributed equally to this work.
+\* - These authors contributed equally to this work.
 
 </div>
 
