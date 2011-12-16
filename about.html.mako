@@ -5,7 +5,7 @@ ${self.rawmarkdown('_pages/about.markdown')}
 
 	<div id="subcontent">
 		<div class="small box">
-			<img src="robin.jpg" width="150" height="290" alt="Robin Juggling" />
+			<img src="img/robin.jpg" width="150" height="290" alt="Robin Juggling" />
 		</div>
 	</div>
 <%!
