@@ -15,7 +15,7 @@
         ${self.header()}\
       </div>\
         ${self.navbar()}\
-        ${next.body()}
+        ${next.body()}\
       <div id="footer">
         ${self.footer()}
       </div> <!-- End Footer -->
