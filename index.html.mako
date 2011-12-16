@@ -3,19 +3,10 @@
     currentpage = "index"
 %>\
 <%inherit file="_templates/site.mako" />
-<div id="content">
+<div id="contentfull">
 ${self.rawmarkdown('_pages/index.markdown')}\
-</div>
-	<div id="subcontent">
-		<div class="small box">
-			<img src="robin.jpg" width="150" height="290" alt="Robin Juggling" />
-		</div>
-	</div>
-    <div id="contentfull">
-    <h2>Blog</h2>
-Here's the main <a href="${bf.util.site_path_helper(bf.config.blog.path)}">chronological blog page</a><br/><br/>
 
-Here's the last 5 posts:
+    <h2>Latest Blog Posts</h2>
 <ul>
 % for post in bf.config.blog.posts[:5]:
     <li><a href="${post.path}">${post.title}</a></li>

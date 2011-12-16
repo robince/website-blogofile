@@ -1,14 +1,14 @@
 <%page args="currentpage"/>
       <div id="navigation">
         <ul>
-          ${navitem('index','About me')}
+          ${navitem('index','Home')}
+          ${navitem('about','About Me')}
           ${navitem('research', 'Research')}
           ${navitem('code', 'Code')}
           ${navitem('links', 'Links')}
           ${navitem('blog', 'Blog')}
         </ul>
-      </div>
-
+      </div>\
 <%def name="navitem(pageid, text)">\
 <% 
    if pageid == currentpage:
