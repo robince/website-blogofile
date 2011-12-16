@@ -4,9 +4,7 @@
 ${self.rawmarkdown('_pages/code.markdown')}
 </div>
 
-<%def name="homepage()">
-  <% return True %>
-</%def>
-<%def name="currentpage()">
-  <% return "code" %>
-</%def>
+<%!
+    ishome = True
+    currentpage = 'code'
+%>

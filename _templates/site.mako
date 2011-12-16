@@ -23,30 +23,24 @@
   </body>
 </html>
 
+<%!
+    # default to being a blog page
+    ishome = False
+    currentpage = 'blog'
+%>
+
 <%def name="head()">\
-  <% ishome = self.homepage() %>\
-  <%include file="head.mako" args="ishome=ishome" />\
+  <%include file="head.mako" args="ishome=self.attr.ishome" />\
 </%def>
 
 <%def name="header()">\
-  <% ishome = self.homepage() %>\
-  <%include file="header.mako" args="ishome=ishome"/>\
+  <%include file="header.mako" args="ishome=self.attr.ishome"/>\
 </%def>
 
 <%def name="footer()">\
-  <% ishome = self.homepage() %>\
-  <%include file="footer.mako" args="ishome=ishome" />\
+  <%include file="footer.mako" args="ishome=self.attr.ishome" />\
 </%def>
 
 <%def name="navbar()">\
-  <% current = self.currentpage() %>\
-  <%include file="nav.mako" args="currentpage=current" />\
-</%def>
-
-<%def name="homepage()">\
-  <% return False %>\
-</%def>
-
-<%def name="currentpage()">\
-  <% return "blog" %>\
+  <%include file="nav.mako" args="currentpage=self.attr.currentpage" />\
 </%def>
