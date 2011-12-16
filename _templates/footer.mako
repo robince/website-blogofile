@@ -4,7 +4,7 @@
  Powered by <a href="http://www.blogofile.com">Blogofile</a>;
  Design by <a href="http://andreasviklund.com/templates/">Andreas Viklund</a>\
 ${modified_text}
-<br/>
+</p>
 % if not ishome:
 RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
 % if bf.config.blog.disqus.enabled:
