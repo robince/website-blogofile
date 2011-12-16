@@ -38,7 +38,7 @@
 </%def>
 
 <%def name="footer()">\
-  <%include file="footer.mako" args="ishome=self.attr.ishome" />\
+  <%include file="footer.mako" args="ishome=self.attr.ishome,modified_text=self.attr.modified_text" />\
 </%def>
 
 <%def name="navbar()">\

@@ -1,9 +1,9 @@
-<%page args="ishome"/>
+<%page args="ishome, modified_text=''"/>
 
 <p>&copy; 2011 Robin Ince;
  Powered by <a href="http://www.blogofile.com">Blogofile</a>;
- Design by <a href="http://andreasviklund.com/templates/">Andreas Viklund</a>; 
- Last Modified: 
+ Design by <a href="http://andreasviklund.com/templates/">Andreas Viklund</a>\
+${modified_text}
 <br/>
 % if not ishome:
 RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
