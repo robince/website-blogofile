@@ -19,11 +19,11 @@ I am also interested in using numerical optimisation techniques to maximise info
 * <a name="ince2011ant"></a> RAA Ince\*, A Mazzoni\*, A Bartels, NK Logothetis and S Panzeri  
 	**A novel test to determine the significance of neural selectivity to single and multiple potentially correlated features**  
   *Journal of Neuroscience Methods* (in press)
-
-### <a name="2010"></a>2010
-* <a name="panzeri2010"></a> S Panzeri and RAA Ince  
+* <a name="panzeri2011ita"></a> S Panzeri and RAA Ince  
 	**Information theoretic approaches to the analysis of neural population recordings**  
 	in N Kriegeskorte and G Kreiman (Eds)  *Understanding visual population codes - towards a common multivariate framework for cell recording and functional imaging*, MIT Press (in press)
+
+### <a name="2010"></a>2010
 * <a name="ince2010itm"></a> RAA Ince, R Senatore, E Arabzadeh, F Montani, ME Diamond and S Panzeri  
 	**Information theoretic methods for studying population codes**  
 	*Neural Networks* (2010) <b>23</b>:6 p. 713-727  
