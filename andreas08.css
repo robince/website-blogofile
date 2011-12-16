@@ -91,7 +91,7 @@ img.right {float:right; margin:0 0 5px 12px;}
 
 /* blog_post styles */
 .blog_post {float:left; width:530px; font-size:0.9em; padding:20px 0 0 20px;}
-.blog_post h2 {display:block; margin:0 0 16px 0; font-size:1.7em; font-weight:normal; letter-spacing:-1px; color:#505050; background-color:inherit;}
+.blog_post h2 {display:block; margin:0 0 5px 0; font-size:1.7em; font-weight:normal; letter-spacing:-1px; color:#505050; background-color:inherit;}
 .blog_post h2 a {font-weight:normal;}
 .blog_post h3 {margin:0 0 5px 0; font-size:1.2em; font-weight:normal; letter-spacing:-1px; color:#505050;}
 .blog_post a:hover,#subcontent a:hover {text-decoration:underline;}
