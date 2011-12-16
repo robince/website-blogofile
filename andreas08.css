@@ -102,8 +102,8 @@ img.right {float:right; margin:0 0 5px 12px;}
 
 /* Menublock styles */
 .blog_menu {margin:0 0 20px 8px; width:150px; font-size:0.9em; padding:10px; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050;}
-.blog_menu li {list-style:none; display:block; padding:2px; margin-bottom:6px; line-height:1.2em;}
-.blog_menu li a {font-weight:bold; text-decoration:none;}
+.blog_menu li {list-style:none; display:block; padding:2px; margin-bottom:2px; line-height:1.2em;}
+.blog_menu li a {font-weight:normal; text-decoration:none;}
 .blog_menu li a:hover {text-decoration:none;}
 .blog_menu li ul {margin:6px 0 3px 15px; font-size:1em; font-weight:normal;}
 .blog_menu li ul li {margin-bottom:3px;}
