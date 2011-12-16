@@ -13,4 +13,7 @@
     <link rel='stylesheet' href='${bf.config.filters.syntax_highlight.css_dir}/pygments_${bf.config.filters.syntax_highlight.style}.css' type='text/css' />
     <meta name="description" content="Robin Ince - Blog" />
     <meta name="keywords" content="robin,ince,blog" /> \
+ <script type="text/javascript">
+   var disqus_developer = 1; // this would set it to developer mode
+ </script> 
 %endif 

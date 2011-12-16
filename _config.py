@@ -51,8 +51,8 @@ blog.timezone = "Europe/Berlin"
 blog.posts_per_page = 5
 
 #### Disqus.com comment integration ####
-blog.disqus.enabled = False
-blog.disqus.name = "your_disqus_name"
+blog.disqus.enabled = True
+blog.disqus.name = "robinceblog"
 
 #### Blog post syntax highlighting ####
 # You can change the style to any builtin Pygments style

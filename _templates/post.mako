@@ -21,6 +21,10 @@ ${", ".join(category_links)}
     ${self.post_prose(post)}
   </div>
 % if sep:
+% if bf.config.blog.disqus.enabled:
+  <div class="after_post"><a href="${post.permalink}#disqus_thread">Read and Post Comments</a></div>
+% endif
+  <br/>
   <hr class="interblog" />
 % endif
 </div>

@@ -18,11 +18,7 @@ Showing posts in category <b>${cat}</b>. <a href=${bf.config.blog.path}>Show all
 % endif
 % for post in posts:
   <%include file="post.mako" args="post=post, sep=True" />
-% if bf.config.blog.disqus.enabled:
-  <div class="after_post"><a href="${post.permalink}#disqus_thread">Read and Post Comments</a></div>
-% endif
 % endfor
-<div class="clear"></div>
 <div id="content">
 % if prev_link:
  <a href="${prev_link}">« Previous Page</a>
