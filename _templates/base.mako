@@ -8,16 +8,16 @@
 
     def includemarkdown(file):
         global modified_text
-        fname = 'md_page_hash.pkl'
+        fname = '_md_page_hash.pkl'
         try:
-            cache = pic.load(open(fname,'r'))
+            cache = pic.load(open(fname,'rb'))
         except:
             cache = {}
         html = md.markdown(open(file,'r').read().decode('utf8'),extras=['markdown-in-html'])
         hash = hashlib.md5(html.encode('utf8')).digest()
         if cache.get(file,('',0))[0] != hash:
             cache[file] = (hash, datetime.datetime.now())
-            pic.dump(cache,open(fname,'w'))
+            pic.dump(cache,open(fname,'w'),protocol=2)
         modified_text = '; Last Modified: %s'%cache[file][1].strftime('%d-%b-%Y')
 
         return html
