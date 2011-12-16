@@ -110,3 +110,7 @@ img.right {float:right; margin:0 0 5px 12px;}
 .blog_menu li ul a {font-weight:normal;}
 
 .category_title {display:inline-block; margin:auto; padding:10px; position:relative; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050; }
+
+pre,code,kbd,samp,tt {font-family: 'Droid Sans Mono', sans-serif; font-size:1em;} 
+
+.pygments_friendly {margin-bottom:1em;}

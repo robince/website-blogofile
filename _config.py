@@ -57,7 +57,7 @@ blog.disqus.name = "robinceblog"
 #### Blog post syntax highlighting ####
 # You can change the style to any builtin Pygments style
 # or, make your own: http://pygments.org/docs/styles
-filters.syntax_highlight.style = "monokai"
+filters.syntax_highlight.style = "friendly"
 filters.syntax_highlight.css_dir = "/css"
 #### Custom blog index ####
 # If you want to create your own index page at your blog root

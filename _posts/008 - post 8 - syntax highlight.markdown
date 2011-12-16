@@ -1,5 +1,5 @@
 ---
-categories: General Stuff
+categories: General Stuff, code
 date: 2009/08/29 15:25:00
 title: Syntax highlight test
 ---
@@ -11,3 +11,5 @@ import this
 if __name__ == "main":
     print "Hello, World!"
 $$/code
+
+End of post.
