@@ -24,7 +24,6 @@ ${", ".join(category_links)}
   <hr class="interblog" />
 % endif
 </div>
-
 <%def name="post_prose(post)">
   ${post.content}
 </%def>
