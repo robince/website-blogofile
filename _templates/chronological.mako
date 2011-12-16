@@ -1,5 +1,21 @@
 <%inherit file="site.mako" />
 <%include file="blogsidebar.mako" />
+<%
+    import mako.runtime
+    if category is mako.runtime.UNDEFINED:
+        cat = False
+    else:
+        cat = category
+%>\
+% if cat:
+<div id="content">
+<div class="textcenter">
+<div class="category_title">
+Showing posts in category <b>${cat}</b>. <a href=${bf.config.blog.path}>Show all posts</a>
+</div>
+</div>
+</div>
+% endif
 % for post in posts:
   <%include file="post.mako" args="post=post, sep=True" />
 % if bf.config.blog.disqus.enabled:

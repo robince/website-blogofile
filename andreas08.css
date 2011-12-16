@@ -108,3 +108,5 @@ img.right {float:right; margin:0 0 5px 12px;}
 .blog_menu li ul {margin:6px 0 3px 15px; font-size:1em; font-weight:normal;}
 .blog_menu li ul li {margin-bottom:3px;}
 .blog_menu li ul a {font-weight:normal;}
+
+.category_title {display:inline-block; margin:auto; padding:10px; position:relative; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050; }
