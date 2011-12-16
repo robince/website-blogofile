@@ -8,4 +8,19 @@ This module for computing finite alphabet maximum entropy solutions subject to m
 ## MATLAB/Python Integration
 The Python programming language, together with the numerical libraries NumPy and SciPy, provides a compelling alternative to MATLAB for computational science. Here are some simple scripts to help copying and pasting [from MATLAB to Python](http://www.mathworks.com/matlabcentral/fileexchange/24087) and [from Python to MATLAB](http://codepad.org/MVYCM0AJ).
 
+I have also contributed to [pymex](https://github.com/kw/pymex), which embeds a
+Python interpreter in a MATLAB mex extension and provides an elegent interface
+for interacting with Python from the MATLAB shell. 
+My `win64` [branch](https://github.com/robince/pymex/tree/win64) supports 64
+bit windows builds with a Microsoft toolchain.
+
+## MATLAB Fortran 95 Interface
+The excellent modern [Fortran
+interface](http://www.mathworks.com/matlabcentral/fileexchange/25934-fortran-95-interface-to-matlab-api-with-extras)
+to the MATLAB mex API makes extending MATLAB with compiled Fortran extensions
+much easier. 
+[My contributions](https://github.com/robince/MatlabAPI) consist of
+modifications to support gfortran on Linux as well as the `-largeArrayDims` 64 bit
+interface on all platforms.
+
 <!-- vim: set ts=2 sw=2 ft=mkd :-->
