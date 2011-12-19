@@ -9,14 +9,17 @@
 ##<a name="software"></a>Software
 Here is a list of some software I use regularly.
 
-* I have been happily Windows free for some time now, using [Mac OS X](http://www.apple.com/macosx/) on a laptop and [Ubuntu](http://www.ubuntu.com/) on workstations.
+* <strike>I have been happily Windows free for some time now,</strike> I use [Mac OS X](http://www.apple.com/macosx/) on a laptop, [Ubuntu](http://www.ubuntu.com/) on workstations I can control, and [Windows](http://windows.microsoft.com/) on servers which I do not control.
 * I primarily use the [MacVim](http://code.google.com/p/macvim/) variant of the [Vim](http://www.vim.org/) editor.
-* For version control I use [Subversion](http://subversion.tigris.org/) to store a main repository and [Bazaar](http://bazaar-vcs.org/) for smaller things. I chose bzr since it seems to have the best integration with subversion, so I can start a small project and if it develops into something I want to keep I can push it into my main SVN repository with history preserved.
-* I use [Firefox](http://www.mozilla.com/firefox/), despite some [rediculous](https://bugzilla.mozilla.org/show_bug.cgi?id=311292) longstanding [bugs](https://bugzilla.mozilla.org/show_bug.cgi?id=45375).
-* I work a lot in the [iTerm terminal](http://iterm.sourceforge.net) with such essentials as [ssh](http://www.linuxjournal.com/content/use-ssh-create-http-proxy), [screen](http://www.gnu.org/software/screen/), etc.
-* For document preparation I prever to use LaTex via the [MacTex](http://www.tug.org/mactex/) distribution, either straight from Vim or with [Lyx](http://www.lyx.org/) editor.
-* For bibliography management I use [BibDesk](http://bibdesk.sourceforge.net) which I populate with BibTex from [Google Scholar](http://scholar.google.com) (although you have to take care as sometimes the screen scraped Googe records can be quite inaccurate). I read PDF's with with [Skim](http://skim-app.sourceforge.net/) viewer from the same author.
-* I built this website using the [Template Toolkit](http://template-toolkit.org/) with the [Markdown](http://daringfireball.net/projects/markdown/) [plugin](http://search.cpan.org/dist/Template-Plugin-Markdown/).
+* For version control I now use [Git](http://git-scm.com/) primarily, but have in the past used [Subversion](http://subversion.tigris.org/) and [Bazaar](http://bazaar-vcs.org/).
+* I use [Firefox](http://www.mozilla.com/firefox/), with [Pentadactyl](http://dactyl.sourceforge.net/pentadactyl/) (vim-style key bindings) and [Zotero](http://www.zotero.org/) (bibliographic database).
+* I work a lot in the [iTerm2 terminal](http://www.iterm2.com/#/section/home) which is a more actively developed fork of iTerm.
+* For remote access to workstations and servers I use [NoMachine NX](http://www.nomachine.com/) and [CoRD](http://cord.sourceforge.net/).
+* For document preparation I prefer to use LaTex via the [MacTex](http://www.tug.org/mactex/) distribution.
+* I built this website with [Blogofile](http://www.blogofile.com/) using [Markdown](http://daringfireball.net/projects/markdown/).
+* While I prefer Python (see below) it would be remiss not to include a link to [MATLAB](http://www.mathworks.co.uk/products/matlab/index.html), which I am using more often at the moment.
+* Other day to day essentials include [Skype](http://www.skype.com/), [Skim](http://skim-app.sourceforge.net/) and last but by no means least [QuickSilver](http://www.blacktree.com/).
+
 
 ###<a name="python"></a>Python
 The Python programming language, together with the numerical libraries NumPy and SciPy provide a compelling alternative to MATLAB for scientific computation.
