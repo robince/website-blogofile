@@ -124,3 +124,4 @@ blockquote {
   border-left: 3px solid #c0c0c0;
   }
 
+hr.half {width: 60%; margin:0 auto}

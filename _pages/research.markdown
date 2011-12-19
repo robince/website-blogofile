@@ -1,16 +1,61 @@
 <div class="content" markdown="1">
 
 ## <a name="research"></a>Research Interests
-I am interested in using mathematical tools, primarily from information theory, to understand neural coding; that is how neurons represent information about the outside world.
-Understanding how neurons represent information is an important step to understanding how they process that information, which is a key question underlying behaviour and consciousness
 
-I am also interested in using numerical optimisation techniques to maximise information theoretic measures such as entropy or mutual information. During my PhD I have developed an algorithm for efficiently obtaining probability distributions on finite alphabet spaces with maximum entropy among those satisfying marginal constraints. Comparing these maximum entropy models with the true distributions measured from the system being studied allows quantification of the effects of interactions between the different variables in the system.
+Generally, my interests lie in the area of [data analysis](http://en.wikipedia.org/wiki/Data_analysis); using mathematical, statistical and computational techniques to learn as much as possible from a given set of data.
+[Neuroscience](http://en.wikipedia.org/wiki/Neuroscience), an exciting frontier of modern science, is an ideal area to explore these interests, and provides the opportunity to provide new understanding to the fundamental problem of how our brains work.
+Experimental advances in modern neuroscience provide a rich source of data sets, which can often be large (or worse, small!), noisy and difficult to collect.
+This provides a great challenge to support the work of my experimental colleagues by extracting the maximum value from the data they obtain. 
+
+Specifically my work to date has primarily consisted of applying tools from [information theory](http://en.wikipedia.org/wiki/Information_theory) to the problem of neural coding; that is how neurons represent information about the outside world.
+Information theory has a number of advantages for this; it is a measure of dependence between variables that is sensitive to both linear and non-linear effects, is non-parametric, placing no assumptions on the underlying system of study and provides quantitative results on a scale that can be meaningfully compared between different systems.
+It can be used to evaluate the timing precision of spikes, evaluate different candidate codes (for example spike rate vs temporal spike pattern; population pooled spike count vs labelled line population code), as well as to quantify the different effects of interactions between variables in a system with multivariate input or output (for example, interactions between spiking neurons). 
+I am also interested in applying a wider variety of techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
+
+Technically, I am interested in practical techniques for improving calculation or estimation of information theoretic quantities both in terms of improving statistical properties, for example by correcting for the [limited sampling bias](http://www.scholarpedia.org/article/Sampling_bias) and in terms of improving computational performance, which is important since many analyses require [Monte Carlo](http://en.wikipedia.org/wiki/Monte_Carlo_method) style controls which involve repeating information calculations many times on shuffled or modelled data and can be a significant bottleneck.
+I am also interested in using numerical optimisation techniques to maximise information theoretic measures such as [entropy](http://en.wikipedia.org/wiki/Entropy_(information_theory) and [mutual information](http://en.wikipedia.org/wiki/Mutual_information).
+I believe the properties of these quantities as intuitively appealing measures of uncertainty and dependence respectively suggest their value as objective functions for optimising models or other types of analysis. 
+This approach as already been used successfully as a way to map neuronal receptive fields with correlated natural stimuli [(Sharpee et al. 2002)](http://arxiv.org/abs/physics/0212110v2), is a foundation of the ID3 and C4.5 algorithms for fitting decision trees, and has been used to fit hidden Markov model predictors for discrete random sequences [(Shalizi & Shalizi, 2004)](http://arxiv.org/abs/cs.LG/0406011).
+During my PhD I developed an algorithm for investigating interactions of different orders in a system by efficiently finding probability distributions that maximize entropy subject to marginal constraints (included in [pyEntropy](/code.html#pyentropy)) and I am keen to explore this approach of applying brute force optimisation to information theoretical objectives more in the future.
+
+## <a name="projects"></a>Current Projects
+
+### <a name="proj_info"></a>Information theoretic analysis tools
+
+A major difficulty when estimating information theoretic quantities from experimental data is the problem of *bias*, a systematic error caused by limited sampling. 
+While many techniques have been developed to correct for this effect, implementing them can be an involved task. 
+I have developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrections.
+Having these tools freely available is important to encourage wider use of the techniques, and easily allow people to try a range of corrections or measures on their data (or on simulated data with similar statistical properties). 
+Additionally, this library implements the information breakdown technique [(Pola et al. 2003)](http://dx.doi.org/10.1088/0954-898X/14/1/303) which quantifies the effect of different types of interaction between the multivariate outputs (or inputs) of a system, as well as a tool for computing maximum entropy solutions subject to marginal equality constraints which can be used to obtain further details of the effect of interactions of different orders.
+
+I am currently working on the statistical interpretation of mutual information as a test of independence, characterising the distribution under the null hypothesis and investigating the effects of temporal dependence in signals. I am also looking at applications of conditional mutual information in neural data analysis, for example when dealing with correlated stimuli, or to provide a form of robust group inference.
+
+### <a name="proj_fmri"></a>Information theoretic analysis of fMRI data
+
+There are two fundamental approaches to the statistical detection of activated regions in fMRI imaging experiments; by using external stimulus information to find regions where activity correlates with stimulus changes (e.g. the General Linear Model [GLM]), or by purely data driven approaches which attempt to extract commonly activated areas from the data without any external information (e.g. Independent Component Analysis [ICA]). 
+I am developing information theoretic techniques for both of these approaches.
+
+In the first case, one can view mutual information between a stimulus condition and the [BOLD response](http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) as the effect size for a statistical test of independence. 
+If there is a significant deviation from independence, then the response is modulated by the stimulus and hence that region can be considered activated during the task. 
+In some ways this is more general than traditional statistical comparisons such as the t-test; for example if the mean of the response did not change, but the variance did, mutual information would be sensitive to such an effect.
+[P-values](http://en.wikipedia.org/wiki/P-value) can be obtained directly from the information value, which allows direct comparison with results from other methods, such as the [GLM](http://en.wikipedia.org/wiki/Statistical_parametric_mapping).
+The advantage is that no assumptions are made about the response (for example normality), the mechanism of activation (no requirement for a [HRF](http://en.wikipedia.org/wiki/Haemodynamic_response) to be specified) or the linearity of the effect.
+A disadvantage is that if responses to different conditions overlap in time it is difficult to tease out the effect of the different conditions (the beauty of the GLM approach is that it allows such separation).
+I am currently working to develop the best way to apply these techniques to different block or event related designs, how to account for temporal dependence in the statistical inference and how the information approach can be extended to group analysis as well as producing high performance code to implement the analysis.
+
+To address the second case, where stimulus information is not available, I am investigating graph-theoretic clustering methods together with information based dependency measures between individual voxels to obtain, in a purely data-driven way, areas that are activated together. 
+
+<p></p>
+<hr class="half" />
+<p></p>
+<p></p>
 
 <div class="textcenter" markdown="1">
+<a name="pubs"></a>
 <a href="http://scholar.google.com/citations?user=tI7ZazkAAAAJ"><img src="img/scholar_logo_md_2011.gif" alt="Google Scholar Citations" title="Google Scholar Citations" /></a> 
 </div>
 
-## <a name="pubs"></a>Publications
+## Publications
 
 <div id="bib" markdown="1">
 
@@ -66,6 +111,9 @@ I am also interested in using numerical optimisation techniques to maximise info
 <div class="menublock" markdown="1">
 - [Top](#)
 - [Research Interests](#research)
+- [Current Projects](#projects)
+  + [Info Tools](#proj_info)
+  + [fMRI](#proj_fmri)
 - [Publications](#pubs)
   + [2011](#2011)
   + [2010](#2010)
