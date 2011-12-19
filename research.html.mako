@@ -2,5 +2,5 @@
 ${self.rawmarkdown('_pages/research.markdown')}
 <%!
     ishome = True
-    currentpage = 'site'
+    currentpage = 'research'
 %>

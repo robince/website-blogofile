@@ -6,6 +6,10 @@ Understanding how neurons represent information is an important step to understa
 
 I am also interested in using numerical optimisation techniques to maximise information theoretic measures such as entropy or mutual information. During my PhD I have developed an algorithm for efficiently obtaining probability distributions on finite alphabet spaces with maximum entropy among those satisfying marginal constraints. Comparing these maximum entropy models with the true distributions measured from the system being studied allows quantification of the effects of interactions between the different variables in the system.
 
+<div class="textcenter" markdown="1">
+<a href="http://scholar.google.com/citations?user=tI7ZazkAAAAJ"><img src="img/scholar_logo_md_2011.gif" alt="Google Scholar Citations" title="Google Scholar Citations" /></a> 
+</div>
+
 ## <a name="pubs"></a>Publications
 
 <div id="bib" markdown="1">
