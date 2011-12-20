@@ -156,7 +156,7 @@ class Post(object):
              [[tree.extract() for tree in s(elem)] for elem in (
                      'h1', 'h2', 'h3', 'h4', 'h5', 'h6')]
              text = ''.join(s.findAll(text=True))\
-                                 .replace("\n", "").split(" ")
+                                 .replace("\n", " ").split(" ")
              return " ".join(text[:num_words]) + '...'
         
     def __post_process(self):

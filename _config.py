@@ -69,7 +69,7 @@ blog.custom_index = False
 # If you want to generate excerpts of your posts in addition to the
 # full post content turn this feature on
 blog.post_excerpts.enabled = True
-blog.post_excerpts.word_length = 25
+blog.post_excerpts.word_length = 50
 #Also, if you don't like the way the post excerpt is generated
 #You can define assign a new function to blog.post_excerpts.method
 #This method must accept the following arguments: (content, num_words)

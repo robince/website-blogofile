@@ -17,8 +17,12 @@ Showing posts in category <b>${cat}</b>. <a href="${bf.config.blog.path}">Show a
 </div>
 % endif
 % for post in posts:
-  <%include file="post.mako" args="post=post, sep=True" />
-% endfor
+  % if bf.config.blog.post_excerpts.enabled:
+    <%include file="post_excerpt.mako" args="post=post" />
+  % else:
+    <%include file="post.mako" args="post=post" />
+  %endif
+% endfor 
 <div class="content">
 % if prev_link:
  <a href="${prev_link}">« Previous Page</a>
