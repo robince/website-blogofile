@@ -4,7 +4,8 @@ date: 2011/12/20 10:55:01
 title: test git hook
 ---
 
-First Post!
+
+some changes
 
 Here is some syntax highlighting:
 
