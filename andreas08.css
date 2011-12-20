@@ -113,7 +113,7 @@ img.right {float:right; margin:0 0 5px 12px;}
 
 pre,code,kbd,samp,tt {font-family: 'Droid Sans Mono', sans-serif; font-size:1em;} 
 
-.pygments_friendly {margin-bottom:1em;}
+.pygments_friendly {margin-bottom:1em; overflow: auto}
 
 blockquote {
   padding: 8px;
