@@ -1,5 +1,5 @@
 ---
-categories: code
+categories: Code
 date: 2011/12/19 18:39:58
 title: "Nerdy thought for the day : cache hash collisions"
 ---

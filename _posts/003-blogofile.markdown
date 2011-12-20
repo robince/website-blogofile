@@ -1,5 +1,5 @@
 ---
-categories: code
+categories: Code
 date: 2011/12/20 12:31:39
 title: "Blogofile setup : date modified and category headings"
 ---

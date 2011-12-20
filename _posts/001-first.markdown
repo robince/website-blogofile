@@ -1,5 +1,5 @@
 ---
-categories: misc
+categories: Misc
 date: 2011/12/19 18:05:25
 title: First!
 ---
