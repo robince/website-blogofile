@@ -25,3 +25,8 @@ This great [comment](http://www.reddit.com/r/programming/comments/nhl2j/why_is_o
 
 Something to keep in mind - I often allocate several arrays of the same type and loop over them doing simple operations (entropy calculations etc.). 
 
+**Update 22/12/11**
+
+For completeness (and my own reference) here are a couple more links with some nice explanations and details.
+[This](http://www.tophatstuff.co.uk/?p=119) covers the basics, and [this](http://igoro.com/archive/gallery-of-processor-cache-effects/) goes into much more detail about cache behaviour. 
+
