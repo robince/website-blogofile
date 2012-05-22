@@ -10,7 +10,6 @@ This provides a great challenge to support the work of my experimental colleague
 Specifically my work to date has primarily consisted of applying tools from [information theory](http://en.wikipedia.org/wiki/Information_theory) to the problem of neural coding; that is how neurons represent information about the outside world.
 Information theory has a number of advantages for this; it is a measure of dependence between variables that is sensitive to both linear and non-linear effects, is non-parametric, placing no assumptions on the underlying system of study and provides quantitative results on a scale that can be meaningfully compared between different systems.
 It can be used to evaluate the timing precision of spikes, evaluate different candidate codes (for example spike rate vs temporal spike pattern; population pooled spike count vs labelled line population code), as well as to quantify the different effects of interactions between variables in a system with multivariate input or output (for example, interactions between spiking neurons). 
-I am also interested in applying a wider variety of techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
 
 Technically, I am interested in practical techniques for improving calculation or estimation of information theoretic quantities both in terms of improving statistical properties, for example by correcting for the [limited sampling bias](http://www.scholarpedia.org/article/Sampling_bias) and in terms of improving computational performance, which is important since many analyses require [Monte Carlo](http://en.wikipedia.org/wiki/Monte_Carlo_method) style controls which involve repeating information calculations many times on shuffled or modelled data and can be a significant bottleneck.
 I am also interested in using numerical optimisation techniques to maximise information theoretic measures such as [entropy](http://en.wikipedia.org/wiki/Entropy_(information_theory) and [mutual information](http://en.wikipedia.org/wiki/Mutual_information).
@@ -18,7 +17,16 @@ I believe the properties of these quantities as intuitively appealing measures o
 This approach as already been used successfully as a way to map neuronal receptive fields with correlated natural stimuli [(Sharpee et al. 2002)](http://arxiv.org/abs/physics/0212110v2), is a foundation of the ID3 and C4.5 algorithms for fitting decision trees, and has been used to fit hidden Markov model predictors for discrete random sequences [(Shalizi & Shalizi, 2004)](http://arxiv.org/abs/cs.LG/0406011).
 During my PhD I developed an algorithm for investigating interactions of different orders in a system by efficiently finding probability distributions that maximize entropy subject to marginal constraints (included in [pyEntropy](/code.html#pyentropy)) and I am keen to explore this approach of applying brute force optimisation to information theoretical objectives more in the future.
 
+I am also interested in applying a techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
+For example, applying supervised learning algorithms to neural data can give insights into the performance of different codes even for response spaces and numbers of trials for which it would be impossible to directly calculate the mutual information.
+I am interested in the relationship between decoding and information [(Quian Quiroga & Panzeri, 2010)](http://www.nature.com/nrn/journal/v10/n3/full/nrn2578.html), which means these supervised learning approaches can be used to give rigorous quantification of information transfer in large systems. 
+I am also looking at other dimensionality reduction methods (self-organising maps, PCA) for calculating approximations to mutual information in high dimensional spaces. 
+I believe this is an important area of research, since the curse of dimensionality means current methods for direct information estimation can never be extended to large neural populations - the amount of data required would take more than a lifetime to collect.
+Although these techniques will always be an approximation, if they can be properly understood they can provide more useful tools to investigate how information is represented and processed in large groups of neurons.
+
+
 ## <a name="projects"></a>Current Projects
+
 
 ### <a name="proj_info"></a>Information theoretic analysis tools
 
@@ -45,6 +53,13 @@ I am currently working to develop the best way to apply these techniques to diff
 
 To address the second case, where stimulus information is not available, I am investigating graph-theoretic clustering methods together with information based dependency measures between individual voxels to obtain, in a purely data-driven way, areas that are activated together. 
 
+### <a name="proj_decoding"></a>Quantitative investigation of large population codes
+
+The sensory coding properties of single cells have been well studied, using for example techniques of mutual information. 
+However, applying these techniques to larger populations of more than 50 neurons is impossible.
+I am using supervised learning algorithms to investigate the sensory coding properties of large populations of cells in auditory cortex. 
+
+
 <p></p>
 <hr class="half" />
 <p></p>
@@ -58,6 +73,16 @@ To address the second case, where stimulus information is not available, I am in
 ## Publications
 
 <div id="bib" markdown="1">
+
+### <a name="2012"></a>2012
+
+* <a name="ince2012chap"></a>RAA Ince  
+  **Open-source software for studying neural codes**  
+  in S Panzeri and R Quian Quiroga (Eds) *Principles of Neural Coding*, CRC Press (in press)  
+  \[ [LINK (amazon)](http://www.amazon.com/Principles-Neural-Coding-Rodrigo-Quiroga/dp/1439853304) \] 
+* <a name="kayser2012slow"></a>C Kayser, RAA Ince and S Panzeri  
+  **Slow oscillations as a temporal reference frame to partition sensory cortical spike trains into informative response patterns**  
+  (submitted)
 
 ### <a name="2011"></a>2011
 
@@ -114,7 +139,9 @@ To address the second case, where stimulus information is not available, I am in
 - [Current Projects](#projects)
   + [Info Tools](#proj_info)
   + [fMRI](#proj_fmri)
+  + [Pop Coding](#proj_decoding)
 - [Publications](#pubs)
+  + [2012](#2012)
   + [2011](#2011)
   + [2010](#2010)
   + [2009](#2009)
