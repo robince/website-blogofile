@@ -82,14 +82,17 @@ I am using supervised learning algorithms to investigate the sensory coding prop
   \[ [LINK (amazon)](http://www.amazon.com/Principles-Neural-Coding-Rodrigo-Quiroga/dp/1439853304) \] 
 * <a name="kayser2012slow"></a>C Kayser, RAA Ince and S Panzeri  
   **Slow oscillations as a temporal reference frame to partition sensory cortical spike trains into informative response patterns**  
-  (submitted)
+  *PLoS Computational Biology* (2012) <b>8</b>(10) e1002717  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1371/journal.pcbi.1002717) \]
+* <a name="ince2012ant"></a> RAA Ince\*, A Mazzoni\*, A Bartels, NK Logothetis and S Panzeri  
+	**A novel test to determine the significance of neural selectivity to single and multiple potentially correlated features**  
+  *Journal of Neuroscience Methods* (2012) <b>210</b>:1 p. 49-65  
+  \[ [LINK (Subscription Required)](http://dx.doi.org/10.1016/j.jneumeth.2011.11.013) | [PDF](/papers/Ince2011_JNM_inpress.pdf) \]
+
 
 ### <a name="2011"></a>2011
 
-* <a name="ince2011ant"></a> RAA Ince\*, A Mazzoni\*, A Bartels, NK Logothetis and S Panzeri  
-	**A novel test to determine the significance of neural selectivity to single and multiple potentially correlated features**  
-  *Journal of Neuroscience Methods* (in press)
-* <a name="panzeri2011ita"></a> S Panzeri and RAA Ince (2011)
+* <a name="panzeri2011ita"></a> S Panzeri and RAA Ince (2011)  
 	**Information theoretic approaches to the analysis of neural population recordings**  
 	in N Kriegeskorte and G Kreiman (Eds)  *Visual population codes: toward a common multivariate framework for cell recording and functional imaging*, MIT Press  
   \[ [LINK (amazon)](http://www.amazon.com/Visual-Population-Codes-Multivariate-Computational/dp/0262016249) \]
