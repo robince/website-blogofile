@@ -81,7 +81,7 @@ I am using supervised learning algorithms to investigate the sensory coding prop
   in S Panzeri and R Quian Quiroga (Eds) *Principles of Neural Coding*, CRC Press (in press)  
   \[ [LINK (amazon)](http://www.amazon.com/Principles-Neural-Coding-Rodrigo-Quiroga/dp/1439853304) \] 
 * <a name="kayser2012slow"></a>C Kayser, RAA Ince and S Panzeri  
-  **Slow oscillations as a temporal reference frame to partition sensory cortical spike trains into informative response patterns**  
+  **Analysis of slow (theta) oscillations as a potential temporal reference frame for information coding in sensory cortex**  
   *PLoS Computational Biology* (2012) <b>8</b>(10) e1002717  
   \[ [LINK (Open Access)](http://dx.doi.org/10.1371/journal.pcbi.1002717) \]
 * <a name="ince2012ant"></a> RAA Ince\*, A Mazzoni\*, A Bartels, NK Logothetis and S Panzeri  
