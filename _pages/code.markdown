@@ -22,6 +22,7 @@ much easier.
 [My contributions](https://github.com/robince/MatlabAPI) consist of
 modifications to support gfortran on Linux as well as the `-largeArrayDims` 64 bit
 interface on all platforms.
+I have also implemented a ['lite'](https://github.com/robince/MatlabAPI_lite) version of the interface, which has much reduced functionality but supports all the Matlab data types. 
 
 ## Miscellaneous
 Other snippets and thoughts can be found on my [blog](blog/category/code).
