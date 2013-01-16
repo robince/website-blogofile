@@ -17,7 +17,7 @@ I believe the properties of these quantities as intuitively appealing measures o
 This approach as already been used successfully as a way to map neuronal receptive fields with correlated natural stimuli [(Sharpee et al. 2002)](http://arxiv.org/abs/physics/0212110v2), is a foundation of the ID3 and C4.5 algorithms for fitting decision trees, and has been used to fit hidden Markov model predictors for discrete random sequences [(Shalizi & Shalizi, 2004)](http://arxiv.org/abs/cs.LG/0406011).
 During my PhD I developed an algorithm for investigating interactions of different orders in a system by efficiently finding probability distributions that maximize entropy subject to marginal constraints (included in [pyEntropy](/code.html#pyentropy)) and I am keen to explore this approach of applying brute force optimisation to information theoretical objectives more in the future.
 
-I am also interested in applying a techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
+I am also interested in applying techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
 For example, applying supervised learning algorithms to neural data can give insights into the performance of different codes even for response spaces and numbers of trials for which it would be impossible to directly calculate the mutual information.
 I am interested in the relationship between decoding and information [(Quian Quiroga & Panzeri, 2010)](http://www.nature.com/nrn/journal/v10/n3/full/nrn2578.html), which means these supervised learning approaches can be used to give rigorous quantification of information transfer in large systems. 
 I am also looking at other dimensionality reduction methods (self-organising maps, PCA) for calculating approximations to mutual information in high dimensional spaces. 
@@ -37,6 +37,10 @@ Having these tools freely available is important to encourage wider use of the t
 Additionally, this library implements the information breakdown technique [(Pola et al. 2003)](http://dx.doi.org/10.1088/0954-898X/14/1/303) which quantifies the effect of different types of interaction between the multivariate outputs (or inputs) of a system, as well as a tool for computing maximum entropy solutions subject to marginal equality constraints which can be used to obtain further details of the effect of interactions of different orders.
 
 I am currently working on the statistical interpretation of mutual information as a test of independence, characterising the distribution under the null hypothesis and investigating the effects of temporal dependence in signals. I am also looking at applications of conditional mutual information in neural data analysis, for example when dealing with correlated stimuli, or to provide a form of robust group inference.
+
+### <a name="proj_te"></a>Information transfer in MEG data
+
+Finding an accurate and reliable way to quantify the flow of information transfer during a cognitive task would provide a great methodological advance, allowing experimenters to trace the flow of information, reconstruct information processing networks and hence gain insight into the neural mechanisms underlying behaviour. The spatio-temporal properties of the [MEG signal](http://en.wikipedia.org/wiki/Magnetoencephalography) make it the ideal modality with which to address these sorts of questions. We are investigating the best way to apply techniques such as transfer entropy to such data, both in terms of optimising statistical properties as well as developing efficient implementations.
 
 ### <a name="proj_fmri"></a>Information theoretic analysis of fMRI data
 
@@ -141,6 +145,7 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 - [Research Interests](#research)
 - [Current Projects](#projects)
   + [Info Tools](#proj_info)
+  + [Info Transfer](#proj_te)
   + [fMRI](#proj_fmri)
   + [Pop Coding](#proj_decoding)
 - [Publications](#pubs)
