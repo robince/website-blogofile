@@ -8,6 +8,6 @@ Before this, I worked as a postdoc at the [Max Planck Institute for Biological C
 
 ## Contact Details
 
-![r o b i n dot i n c e at t u e b i n g e n dot m p g dot d e](img/mpgemail.png)
+![r o b i n dot i n c e at g l a s g o w dot a c dot u k](img/glaemail.png)
 
-![r o b i n at r o b i n c e dot n e t](img/email.png)
+![r o b i n c e at g m a i l dot c o m](img/email.png)
