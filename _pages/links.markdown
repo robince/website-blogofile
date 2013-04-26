@@ -1,13 +1,14 @@
 <div class="content" markdown="1">
-##<a name="cn"></a>Computational Neuroscience
 
-###<a name="ln"></a>Lectures/Notes
+## <a name="cn"></a>Computational Neuroscience
+
+### <a name="ln"></a>Lectures/Notes
 
 * [Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/) : an excellent freely available book by Cosma Shalizi..
 * [Spike Train Analysis Network - Online seminars](http://www.spiketrain.org/Seminars.html) : a range of seminars that take place live online (you can email questions etc.) but are also archived for later viewing.
 * [Statistical analysis of neural data](http://www.stat.columbia.edu/~liam/teaching/neurostat-spr09/) : learning materials available online for a course taught at Columbia by [Liam Paninski](http://www.stat.columbia.edu/~liam/).
 
-##<a name="software"></a>Software
+## <a name="software"></a>Software
 Here is a list of some software I use regularly.
 
 * I use [Mac OS X](http://www.apple.com/macosx/) on a laptop and Linux (CentOS / Ubuntu) on workstations.
@@ -23,7 +24,7 @@ Here is a list of some software I use regularly.
 * Other day to day essentials include [Skype](http://www.skype.com/), [Skim](http://skim-app.sourceforge.net/), [Dropbox](https://www.dropbox.com/) and last but by no means least [QuickSilver](http://www.blacktree.com/).
 
 
-###<a name="python"></a>Python
+### <a name="python"></a>Python
 The Python programming language, together with the numerical libraries NumPy and SciPy provide a compelling alternative to MATLAB for scientific computation.
 
 * The [Python](http://www.python.org/) programming language.
@@ -34,7 +35,7 @@ The Python programming language, together with the numerical libraries NumPy and
 * There are some bundled installers which include everything you need, such as [Python(x,y)](http://www.pythonxy.com/) (windows, quite current) and [EPD](http://www.enthought.com/products/epd.php) (cross platform, commercial but free for academic use).
 * You can find some information about the advantages of Python [here](http://www.stat.washington.edu/~hoytak/blog/whypython.html). I also like these examples of how easy it is to [improve performance](http://www.scipy.org/PerformancePython) and to [parallelise](http://www.scipy.org/ParallelProgramming) your code.
 
-##<a name="other"></a>Other Stuff
+## <a name="other"></a>Other Stuff
 
 * I like playing acoustic guitar. [fingerstyleblues.com](http://www.fingerstyleblues.com/) is a site with some really nice beginner fingerstyle exercises and [classtab.org](http://www.classtab.org/) is a great resource for classical guitar tab.
 
