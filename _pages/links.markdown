@@ -3,22 +3,24 @@
 
 ###<a name="ln"></a>Lectures/Notes
 
+* [Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/) : an excellent freely available book by Cosma Shalizi..
 * [Spike Train Analysis Network - Online seminars](http://www.spiketrain.org/Seminars.html) : a range of seminars that take place live online (you can email questions etc.) but are also archived for later viewing.
 * [Statistical analysis of neural data](http://www.stat.columbia.edu/~liam/teaching/neurostat-spr09/) : learning materials available online for a course taught at Columbia by [Liam Paninski](http://www.stat.columbia.edu/~liam/).
 
 ##<a name="software"></a>Software
 Here is a list of some software I use regularly.
 
-* <strike>I have been happily Windows free for some time now,</strike> I use [Mac OS X](http://www.apple.com/macosx/) on a laptop, [Ubuntu](http://www.ubuntu.com/) on workstations I can control, and [Windows](http://windows.microsoft.com/) on servers which I do not control.
+* I use [Mac OS X](http://www.apple.com/macosx/) on a laptop and Linux (CentOS / Ubuntu) on workstations.
 * I primarily use the [MacVim](http://code.google.com/p/macvim/) variant of the [Vim](http://www.vim.org/) editor.
 * For version control I now use [Git](http://git-scm.com/) primarily, but have in the past used [Subversion](http://subversion.tigris.org/) and [Bazaar](http://bazaar-vcs.org/).
-* I use [Firefox](http://www.mozilla.com/firefox/), with [Pentadactyl](http://dactyl.sourceforge.net/pentadactyl/) (vim-style key bindings) and [Zotero](http://www.zotero.org/) (bibliographic database).
+* I use [Firefox](http://www.mozilla.com/firefox/), with [Pentadactyl](http://dactyl.sourceforge.net/pentadactyl/) (vim-style key bindings), [Zotero](http://www.zotero.org/) (bibliographic database) and [markdown-here](https://github.com/adam-p/markdown-here) (Markdown in Gmail).
 * I work a lot in the [iTerm2 terminal](http://www.iterm2.com/#/section/home) which is a more actively developed fork of iTerm.
-* For remote access to workstations and servers I use [NoMachine NX](http://www.nomachine.com/) and [CoRD](http://cord.sourceforge.net/).
+* For remote access to workstations and servers I use [NoMachine NX](http://www.nomachine.com/) and [CoRD](http://cord.sourceforge.net/). For working on my laptop and a local workstation I use [Synergy](http://synergy-foss.org/).
 * For document preparation I prefer to use LaTex via the [MacTex](http://www.tug.org/mactex/) distribution.
 * I built this website with [Blogofile](http://www.blogofile.com/) using [Markdown](http://daringfireball.net/projects/markdown/).
 * While I prefer Python (see below) it would be remiss not to include a link to [MATLAB](http://www.mathworks.co.uk/products/matlab/index.html), which I am using more often at the moment.
-* Other day to day essentials include [Skype](http://www.skype.com/), [Skim](http://skim-app.sourceforge.net/) and last but by no means least [QuickSilver](http://www.blacktree.com/).
+* I use [nvALT](http://brettterpstra.com/projects/nvalt/) for notes and snippets, synced with [Simplenote](http://simplenote.com/) and use [Notational Acceleration](https://play.google.com/store/apps/details?id=com.kludgenics.android.notes&hl=en) on Android.
+* Other day to day essentials include [Skype](http://www.skype.com/), [Skim](http://skim-app.sourceforge.net/), [Dropbox](https://www.dropbox.com/) and last but by no means least [QuickSilver](http://www.blacktree.com/).
 
 
 ###<a name="python"></a>Python
