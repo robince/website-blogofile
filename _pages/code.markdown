@@ -31,6 +31,6 @@ My `win64` [branch](https://github.com/robince/pymex/tree/win64) supports 64
 bit windows builds with a Microsoft toolchain.
 
 ## Miscellaneous
-Other snippets and thoughts can be found on my [blgit@github.com:robince/tdistfit.gitog](blog/category/code).
+Other snippets and thoughts can be found on my [blog](blog/category/code).
 
 <!-- vim: set ts=2 sw=2 ft=mkd :-->
