@@ -78,6 +78,21 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 
 <div id="bib" markdown="1">
 
+### <a name="2013"></a>2013
+
+* <a name="bale2013pcn"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  
+  **Population coding of naturalistic whisker motion in the thalamus by dynamic synchrony**  
+  (in preparation)
+* <a name="ince2013ncf"></a>RAA Ince, S Panzeri and C Kayser  
+  **Neural codes formed by small and temporally precise populations in auditory cortex**  
+  (submitted)
+* <a name="panzeri2013itr"></a>S Panzeri, RAA Ince, ME Diamond and C Kayser  
+  **Internal temporal references for decoding spike trains**  
+  (submitted)
+* <a name="bale2013lsf"></a>MR Bale\*, K Davies\*, OJ Freeman, RAA Ince and RS Petersen  
+  **Low-dimensional sensory feature representation by trigeminal primary afferents**  
+  *Journal of Neuroscience* (in press)
+
 ### <a name="2012"></a>2012
 
 * <a name="ince2012chap"></a>RAA Ince  
@@ -149,6 +164,7 @@ I am using supervised learning algorithms to investigate the sensory coding prop
   + [fMRI](#proj_fmri)
   + [Pop Coding](#proj_decoding)
 - [Publications](#pubs)
+  + [2013](#2013)
   + [2012](#2012)
   + [2011](#2011)
   + [2010](#2010)
