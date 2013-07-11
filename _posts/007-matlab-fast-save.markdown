@@ -85,3 +85,7 @@ So in the case of a warm load, for example if local workers were accesses a larg
 - Use [`savefast`](http://www.mathworks.co.uk/matlabcentral/fileexchange/39721-save-mat-files-more-quickly)!
 - If you have complicated data structures but they are smaller than 2GB then try `v7` and `v6`.
 
+### Updates (July 2013)
+
+- I have another post about how to more quickly save more intricate data structures (nested structures / cell arrays etc.) [using serialization](/blog/2013/06/18/saving-structures-quickly-with-serialization/).
+- `savefast` doesn't work inside `parfor` loops due to the use of `evalin`. [savefaststruct](https://gist.github.com/robince/5974172) includes a minor change to allow `save -struct` style saving, which works inside parallel sections.
