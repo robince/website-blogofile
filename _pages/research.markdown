@@ -80,25 +80,26 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 
 ### <a name="2013"></a>2013
 
-* <a name="bale2013pcn"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  
-  **Population coding of naturalistic whisker motion in the thalamus by dynamic synchrony**  
+* <a name="bale2013pcn"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  **Population coding of naturalistic whisker motion in the thalamus by dynamic synchrony**  
   (in preparation)
 * <a name="ince2013ncf"></a>RAA Ince, S Panzeri and C Kayser  
   **Neural codes formed by small and temporally precise populations in auditory cortex**  
-  (submitted)
+  *Journal of Neuroscience* (under revision)
 * <a name="panzeri2013itr"></a>S Panzeri, RAA Ince, ME Diamond and C Kayser  
   **Internal temporal references for decoding spike trains**  
-  (submitted)
+  *Phil. Trans. B* (in press)
 * <a name="bale2013lsf"></a>MR Bale\*, K Davies\*, OJ Freeman, RAA Ince and RS Petersen  
   **Low-dimensional sensory feature representation by trigeminal primary afferents**  
-  *Journal of Neuroscience* (in press)
+  *Journal of Neuroscience* (2013) <b>33</b>(29) p. 12003-12012  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1523/jneurosci.0925-13.2013) \]
+
 
 ### <a name="2012"></a>2012
 
 * <a name="ince2012chap"></a>RAA Ince  
   **Open-source software for studying neural codes**  
   in S Panzeri and R Quian Quiroga (Eds) *Principles of Neural Coding*, CRC Press (in press)  
-  \[ [LINK (amazon)](http://www.amazon.com/Principles-Neural-Coding-Rodrigo-Quiroga/dp/1439853304) \] 
+  \[ [LINK (Amazon)](http://www.amazon.com/Principles-Neural-Coding-Rodrigo-Quiroga/dp/1439853304) \] 
 * <a name="kayser2012slow"></a>C Kayser, RAA Ince and S Panzeri  
   **Analysis of slow (theta) oscillations as a potential temporal reference frame for information coding in sensory cortex**  
   *PLoS Computational Biology* (2012) <b>8</b>(10) e1002717  
