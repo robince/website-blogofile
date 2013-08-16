@@ -1,5 +1,5 @@
 ---
-categories: Code, Matlab
+categories: Code, Matlab, Algorithms
 date: 2013/04/18 16:39:52
 title: "Fitting multivariate t-distributions to data"
 ---
