@@ -3,7 +3,7 @@ On this site you can find out about [me](about.html) and my [research](research.
 
 <br />
 <div style="display:inline-block; width:40%; text-align:center">
-<a href="http://uk.linkedin.com/in/robinince"> <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Robin Ince's profile on LinkedIn"> </a>
+<a href="http://uk.linkedin.com/in/robinince"> <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" alt="View Robin Ince's profile on LinkedIn" /> </a>
 </div>
 <div style="display:inline-block; width:10%"></div>
 <div style="display:inline-block; width:40%; text-align:center">
