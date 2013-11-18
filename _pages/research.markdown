@@ -82,12 +82,13 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 
 * <a name="bale2013pcn"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  **Population coding of naturalistic whisker motion in the thalamus by dynamic synchrony**  
   (in preparation)
-* <a name="ince2013ncf"></a>RAA Ince, S Panzeri and C Kayser  
-  **Neural codes formed by small and temporally precise populations in auditory cortex**  
-  *Journal of Neuroscience* (under revision)
 * <a name="panzeri2013itr"></a>S Panzeri, RAA Ince, ME Diamond and C Kayser  
   **Internal temporal references for decoding spike trains**  
   *Phil. Trans. B* (in press)
+* <a name="ince2013ncf"></a>RAA Ince, S Panzeri and C Kayser  
+  **Neural codes formed by small and temporally precise populations in auditory cortex**  
+  *Journal of Neuroscience* (2013) <b>33</b>(46) p. 18277-18287  
+  \[ [LINK (Subscription Required)](http://dx.doi.org/10.1523/jneurosci.2631-13.2013) | [PDF](/papers/Ince2013_JNeurosci.pdf) \]
 * <a name="bale2013lsf"></a>MR Bale\*, K Davies\*, OJ Freeman, RAA Ince and RS Petersen  
   **Low-dimensional sensory feature representation by trigeminal primary afferents**  
   *Journal of Neuroscience* (2013) <b>33</b>(29) p. 12003-12012  
@@ -148,7 +149,7 @@ I am using supervised learning algorithms to investigate the sensory coding prop
   RAA Ince, RS Petersen, DC Swan and S Panzeri  
   **Python for information theoretic analysis of neural data**  
   *Frontiers in Neuroinformatics* (2009) <b>3</b>:4.  
-  \[ [LINK (Open Access)](http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2009/) \]
+  \[ [LINK (Open Access)](http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11.004.2009/) \]
 
 </div>
 \* - These authors contributed equally to this work.
