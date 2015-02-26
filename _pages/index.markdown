@@ -1,5 +1,5 @@
-I am a postdoc in the field of [computational neuroscience](http://en.wikipedia.org/wiki/Computational_neuroscience) at the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) in [Glasgow](http://en.wikipedia.org/wiki/Glasgow).
-On this site you can find out about [me](about.html) and my [research](research.html), get an idea about some of my [interests](links.html), download some [code](code.html) that I have produced and read my [blog](blog/).  
+I am a postdoc at the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) in [Glasgow](http://en.wikipedia.org/wiki/Glasgow).
+On this site you can find out about [me](about.html) and my [research](research.html), download some [code](code.html) that I have produced and read my [blog](blog/).  
 
 <br />
 <div style="display:inline-block; width:40%; text-align:center">
