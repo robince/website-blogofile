@@ -1,56 +1,46 @@
 <div class="content" markdown="1">
 
-## <a name="cn"></a>Computational Neuroscience
+Here are some links to products and services that I use and endorse.
 
-### <a name="ln"></a>Lectures/Notes
+## <a name="products"></a>Products
 
-* [Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/) : an excellent freely available book by Cosma Shalizi..
-* [Spike Train Analysis Network - Online seminars](http://www.spiketrain.org/Seminars.html) : a range of seminars that take place live online (you can email questions etc.) but are also archived for later viewing.
-* [Statistical analysis of neural data](http://www.stat.columbia.edu/~liam/teaching/neurostat-spr09/) : learning materials available online for a course taught at Columbia by [Liam Paninski](http://www.stat.columbia.edu/~liam/).
+* Tea: [Jing Tea](https://jingtea.com/)
+* Coffee: [Has Bean](http://www.hasbean.co.uk/)
+
+## <a name="services"></a>Services
+
+* [Rackulous](http://www.rackulous.com/) (VPS hosting, UK)
+* [Online.net](http://www.online.net) (dedicated server hosting, France)
+* [Localphone](http://www.localphone.com) (international calls / VoIP)
+* [Simplenote](http://simplenote.com/) (sync text based notes)
+* [Dropbox](http://www.dropbox.com/) (file sharing)
+* [Asana](http://asana.com) (project management)
+* [GitHub](https://github.com/robince) (public source code)
+* [Spotify](https://www.spotify.com/uk/) (subscription music)
+* [UnoDNS](https://www2.unotelly.com/home) (region unblocking)
+* [StartSSL](https://www.startssl.com/) (free Class 1 SSL certificates)
 
 ## <a name="software"></a>Software
-Here is a list of some software I use regularly.
 
-* I use [Mac OS X](http://www.apple.com/macosx/) on a laptop and Linux (CentOS / Ubuntu) on workstations.
-* I primarily use the [MacVim](http://code.google.com/p/macvim/) variant of the [Vim](http://www.vim.org/) editor.
-* For version control I now use [Git](http://git-scm.com/) primarily, but have in the past used [Subversion](http://subversion.tigris.org/) and [Bazaar](http://bazaar-vcs.org/).
-* I use [Firefox](http://www.mozilla.com/firefox/), with [Pentadactyl](http://dactyl.sourceforge.net/pentadactyl/) (vim-style key bindings), [Zotero](http://www.zotero.org/) (bibliographic database) and [markdown-here](https://github.com/adam-p/markdown-here) (Markdown in Gmail).
-* I work a lot in the [iTerm2 terminal](http://www.iterm2.com/#/section/home) which is a more actively developed fork of iTerm.
-* For remote access to workstations and servers I use [NoMachine NX](http://www.nomachine.com/) and [CoRD](http://cord.sourceforge.net/). For working on my laptop and a local workstation I use [Synergy](http://synergy-foss.org/).
-* For document preparation I prefer to use LaTex via the [MacTex](http://www.tug.org/mactex/) distribution.
-* I built this website with [Blogofile](http://www.blogofile.com/) using [Markdown](http://daringfireball.net/projects/markdown/).
-* While I prefer Python (see below) it would be remiss not to include a link to [MATLAB](http://www.mathworks.co.uk/products/matlab/index.html), which I am using more often at the moment.
-* I use [nvALT](http://brettterpstra.com/projects/nvalt/) for notes and snippets, synced with [Simplenote](http://simplenote.com/) and use [Notational Acceleration](https://play.google.com/store/apps/details?id=com.kludgenics.android.notes&hl=en) on Android.
-* Other day to day essentials include [Skype](http://www.skype.com/), [Skim](http://skim-app.sourceforge.net/), [Dropbox](https://www.dropbox.com/) and last but by no means least [QuickSilver](http://www.blacktree.com/).
-
-
-### <a name="python"></a>Python
-The Python programming language, together with the numerical libraries NumPy and SciPy provide a compelling alternative to MATLAB for scientific computation.
-
-* The [Python](http://www.python.org/) programming language.
-* The numerical libraries [NumPy and SciPy](http://www.scipy.org/). 
-* The [matplotlib](http://matplotlib.sourceforge.net/) plotting package.
-* The [IPython](http://ipython.scipy.org/moin/) interactive interpreter.
-* The [Cython](http://cython.org/) language.
-* There are some bundled installers which include everything you need, such as [Python(x,y)](http://www.pythonxy.com/) (windows, quite current) and [EPD](http://www.enthought.com/products/epd.php) (cross platform, commercial but free for academic use).
-* You can find some information about the advantages of Python [here](http://www.stat.washington.edu/~hoytak/blog/whypython.html). I also like these examples of how easy it is to [improve performance](http://www.scipy.org/PerformancePython) and to [parallelise](http://www.scipy.org/ParallelProgramming) your code.
-
-## <a name="other"></a>Other Stuff
-
-* I like playing acoustic guitar. [fingerstyleblues.com](http://www.fingerstyleblues.com/) is a site with some really nice beginner fingerstyle exercises and [classtab.org](http://www.classtab.org/) is a great resource for classical guitar tab.
-
+* [Vim](http://www.vim.org/) (text editor)
+* [nvALT](http://brettterpstra.com/projects/nvalt/) (text notes)
+* [Synergy](http://synergy-project.org/) (share mouse and keyboard between computers)
+* [x2go](http://wiki.x2go.org/doku.php) (linux remote desktop)
+* [Zotero](https://www.zotero.org/) (bibliography management)
+* [QuickSilver](http://www.blacktree.com/) (smart launcher/search)
+* [iTerm2](http://iterm2.com/) (os x terminal)
+* [Audio Hijack](https://www.rogueamoeba.com/audiohijackpro/) with [Canz3d](http://www.midnightwalrus.com/Canz3D/) (spatial simulation for headphone listening)
+* [Matlab](http://www.mathworks.co.uk/products/matlab/index.html) 
+* [Python](https://store.continuum.io/cshop/anaconda/)
 
 </div>
-
 
 <div id="subcontent" markdown="1">
 <div class="menublock" markdown="1">
 * [Top](#)
-* [Computational Neuroscience](#cn)
-  * [Lectures/Notes](#ln)
+* [Products](#products)
+* [Services](#services)
 * [Software](#software)
-  * [Python](#python)
-* [Other Stuff](#other)
 </div>
 </div>
 
