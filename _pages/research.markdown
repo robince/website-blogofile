@@ -53,10 +53,10 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### External
 
-- [Stefano Panzeri](http://cncs.iit.it/people/iit-unitn-neural-computation/senior-researcher/stefano-panzeri.html), IIT
-- [Daniel Chicharro](http://www.iit.it/en/people/daniel-chicharro.html),  Italian Institute of Technology 
+- [Stefano Panzeri](http://cncs.iit.it/people/iit-unitn-neural-computation/senior-researcher/stefano-panzeri.html), Italian Institute of Technology, Rovereto
+- [Daniel Chicharro](http://www.iit.it/en/people/daniel-chicharro.html),  Italian Institute of Technology, Rovereto
 - [Rasmus Petersen](http://www.petersenlab.ls.manchester.ac.uk/), University of Manchester
-- [Michael Bale](http://in.umh.es/personal-detalle.aspx?personal=638), Universidad Miguel Hernández
+- [Michael Bale](http://in.umh.es/personal-detalle.aspx?personal=638), Universidad Miguel Hernández, Alicante
 
 
 <p></p>
