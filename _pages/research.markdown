@@ -1,67 +1,62 @@
 <div class="content" markdown="1">
 
-## <a name="research"></a>Research Interests
+I develop statistical methods for analysing data from [neuroimaging](http://en.wikipedia.org/wiki/Neuroimaging) and [electrophysiological](http://en.wikipedia.org/wiki/Electrophysiology) experiments. 
+I have a particular interest in practical applications of [information theoretic](http://en.wikipedia.org/wiki/Information_theory) methods. 
 
-Generally, my interests lie in the area of [data analysis](http://en.wikipedia.org/wiki/Data_analysis); using mathematical, statistical and computational techniques to learn as much as possible from a given set of data.
-[Neuroscience](http://en.wikipedia.org/wiki/Neuroscience), an exciting frontier of modern science, is an ideal area to explore these interests, and provides the opportunity to provide new understanding to the fundamental problem of how our brains work.
-Experimental advances in modern neuroscience provide a rich source of data sets, which can often be large (or worse, small!), noisy and difficult to collect.
-This provides a great challenge to support the work of my experimental colleagues by extracting the maximum value from the data they obtain. 
+## <a name="projects"></a>Research Strands
 
-Specifically my work to date has primarily consisted of applying tools from [information theory](http://en.wikipedia.org/wiki/Information_theory) to the problem of neural coding; that is how neurons represent information about the outside world.
-Information theory has a number of advantages for this; it is a measure of dependence between variables that is sensitive to both linear and non-linear effects, is non-parametric, placing no assumptions on the underlying system of study and provides quantitative results on a scale that can be meaningfully compared between different systems.
-It can be used to evaluate the timing precision of spikes, evaluate different candidate codes (for example spike rate vs temporal spike pattern; population pooled spike count vs labelled line population code), as well as to quantify the different effects of interactions between variables in a system with multivariate input or output (for example, interactions between spiking neurons). 
+### <a name="proj_info"></a>Developing information theoretic analysis tools 
 
-Technically, I am interested in practical techniques for improving calculation or estimation of information theoretic quantities both in terms of improving statistical properties, for example by correcting for the [limited sampling bias](http://www.scholarpedia.org/article/Sampling_bias) and in terms of improving computational performance, which is important since many analyses require [Monte Carlo](http://en.wikipedia.org/wiki/Monte_Carlo_method) style controls which involve repeating information calculations many times on shuffled or modelled data and can be a significant bottleneck.
-I am also interested in using numerical optimisation techniques to maximise information theoretic measures such as [entropy](http://en.wikipedia.org/wiki/Entropy_(information_theory) and [mutual information](http://en.wikipedia.org/wiki/Mutual_information).
-I believe the properties of these quantities as intuitively appealing measures of uncertainty and dependence respectively suggest their value as objective functions for optimising models or other types of analysis. 
-This approach as already been used successfully as a way to map neuronal receptive fields with correlated natural stimuli [(Sharpee et al. 2002)](http://arxiv.org/abs/physics/0212110v2), is a foundation of the ID3 and C4.5 algorithms for fitting decision trees, and has been used to fit hidden Markov model predictors for discrete random sequences [(Shalizi & Shalizi, 2004)](http://arxiv.org/abs/cs.LG/0406011).
-During my PhD I developed an algorithm for investigating interactions of different orders in a system by efficiently finding probability distributions that maximize entropy subject to marginal constraints (included in [pyEntropy](/code.html#pyentropy)) and I am keen to explore this approach of applying brute force optimisation to information theoretical objectives more in the future.
+There are a number of technical problems that arise when trying to estimate information theoretic quantities from limited quantities of experimental data.
+One major issue is the problem of *bias,* a systematic error caused by limited sampling. 
+While many techniques have been developed to correct for this effect, implementing them can be quite involved. 
+During my PhD I developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrections for discrete (i.e. binned) data.
+Recently, I have developed a new bin-less method for estimating information theoretic quantities, which is much less sensitive to bias effects.
+This estimator is robust, computationally efficient, and is ideally suited to signals such as those recorded with [EEG](http://en.wikipedia.org/wiki/Electroencephalography) and [MEG](http://en.wikipedia.org/wiki/Magnetoencephalography).
+In particular, it allows estimation of information theoretic quantities on multivariate spaces that would not be possible with binned methods. 
+This allows practical estimation of quantities like interaction information (below), and [conditional mutual information](http://en.wikipedia.org/wiki/Conditional_mutual_information).
 
-I am also interested in applying techniques from [machine learning](http://en.wikipedia.org/wiki/Machine_learning) to these large scale problems of neurological data analysis in general, and in particular the issue of neural coding.
-For example, applying supervised learning algorithms to neural data can give insights into the performance of different codes even for response spaces and numbers of trials for which it would be impossible to directly calculate the mutual information.
-I am interested in the relationship between decoding and information [(Quian Quiroga & Panzeri, 2010)](http://www.nature.com/nrn/journal/v10/n3/full/nrn2578.html), which means these supervised learning approaches can be used to give rigorous quantification of information transfer in large systems. 
-I am also looking at other dimensionality reduction methods (self-organising maps, PCA) for calculating approximations to mutual information in high dimensional spaces. 
-I believe this is an important area of research, since the curse of dimensionality means current methods for direct information estimation can never be extended to large neural populations - the amount of data required would take more than a lifetime to collect.
-Although these techniques will always be an approximation, if they can be properly understood they can provide more useful tools to investigate how information is represented and processed in large groups of neurons.
+### <a name="proj_interactions"></a>Quantifying representational interactions between neuroimaging responses
 
-
-## <a name="projects"></a>Current Projects
-
-
-### <a name="proj_info"></a>Information theoretic analysis tools
-
-A major difficulty when estimating information theoretic quantities from experimental data is the problem of *bias*, a systematic error caused by limited sampling. 
-While many techniques have been developed to correct for this effect, implementing them can be an involved task. 
-I have developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrections.
-Having these tools freely available is important to encourage wider use of the techniques, and easily allow people to try a range of corrections or measures on their data (or on simulated data with similar statistical properties). 
-Additionally, this library implements the information breakdown technique [(Pola et al. 2003)](http://dx.doi.org/10.1088/0954-898X/14/1/303) which quantifies the effect of different types of interaction between the multivariate outputs (or inputs) of a system, as well as a tool for computing maximum entropy solutions subject to marginal equality constraints which can be used to obtain further details of the effect of interactions of different orders.
-
-I am currently working on the statistical interpretation of mutual information as a test of independence, characterising the distribution under the null hypothesis and investigating the effects of temporal dependence in signals. I am also looking at applications of conditional mutual information in neural data analysis, for example when dealing with correlated stimuli, or to provide a form of robust group inference.
+If two different neuroimaging responses (different spatial/temporal/spectral regions, or different recording modalities) are found to be modulated by a stimulus, a natural question is whether they represent the stimulus in the same way. 
+I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information). 
+Redundancy indicates both responses represent the same information about the simulus. 
+Synergy indicates that the two responses convey more information together than they do alone; the relationship between them is informative.
+Currently the only analysis method which addresses these types of questions is [Representational Similarity Analysis](http://www.mrc-cbu.cam.ac.uk/methods-and-resources/toolboxes/).
+I hope that information theory based approaches can complement RSA, by widening the number of situations in which such questions can be addressed.
 
 ### <a name="proj_te"></a>Information transfer in MEG data
 
-Finding an accurate and reliable way to quantify the flow of information transfer during a cognitive task would provide a great methodological advance, allowing experimenters to trace the flow of information, reconstruct information processing networks and hence gain insight into the neural mechanisms underlying behaviour. The spatio-temporal properties of the [MEG signal](http://en.wikipedia.org/wiki/Magnetoencephalography) make it the ideal modality with which to address these sorts of questions. We are investigating the best way to apply techniques such as transfer entropy to such data, both in terms of optimising statistical properties as well as developing efficient implementations.
+Network level analyses of neuroimaging data are now well established. 
+However, the connectivity measures which are used to obtain functional networks are usually agnostic to specific information content; they detect the presence of communication between regions but do not account for the content of that communication (e.g. whether it is stimulus driven, task relevant etc.).
+We have developed a measure which quantifies the causal transfer *about* a specific stimulus feature.
+This measure is based on directed information (often called [transfer entropy](http://en.wikipedia.org/wiki/Transfer_entropy)).
+We hope this content-based functional connectivity measure will allow network analyses of neuroimaging data to focus more directly on information processing functions.
 
-### <a name="proj_fmri"></a>Information theoretic analysis of fMRI data
+### <a name="proj_misc"></a>Other methods
 
-There are two fundamental approaches to the statistical detection of activated regions in fMRI imaging experiments; by using external stimulus information to find regions where activity correlates with stimulus changes (e.g. the General Linear Model [GLM]), or by purely data driven approaches which attempt to extract commonly activated areas from the data without any external information (e.g. Independent Component Analysis [ICA]). 
-I am developing information theoretic techniques for both of these approaches.
+I am interested in combining information theoretic approaches with supervised learning, or other dimensionality reduction approaches to allow application to high dimensional response spaces. 
+One dimensionality reduction approach which I believe is particularly promising is the combination of [mutual information (MI)](http://en.wikipedia.org/wiki/Mutual_information) and [non-negative matrix factorization (NMF)](http://en.wikipedia.org/wiki/Non-negative_matrix_factorization).
+NMF and MI are ideal partners: MI images are non-negative and with a high signal to noise ratio, while NMF provides a meaningful parts-based decomposition, but does not normally incorporate any task or response specific knowledge. 
+I believe combining them provides a simple but flexible approach for task-driven dimensionality reduction. 
 
-In the first case, one can view mutual information between a stimulus condition and the [BOLD response](http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) as the effect size for a statistical test of independence. 
-If there is a significant deviation from independence, then the response is modulated by the stimulus and hence that region can be considered activated during the task. 
-In some ways this is more general than traditional statistical comparisons such as the t-test; for example if the mean of the response did not change, but the variance did, mutual information would be sensitive to such an effect.
-[P-values](http://en.wikipedia.org/wiki/P-value) can be obtained directly from the information value, which allows direct comparison with results from other methods, such as the [GLM](http://en.wikipedia.org/wiki/Statistical_parametric_mapping).
-The advantage is that no assumptions are made about the response (for example normality), the mechanism of activation (no requirement for a [HRF](http://en.wikipedia.org/wiki/Haemodynamic_response) to be specified) or the linearity of the effect.
-A disadvantage is that if responses to different conditions overlap in time it is difficult to tease out the effect of the different conditions (the beauty of the GLM approach is that it allows such separation).
-I am currently working to develop the best way to apply these techniques to different block or event related designs, how to account for temporal dependence in the statistical inference and how the information approach can be extended to group analysis as well as producing high performance code to implement the analysis.
+## <a name="collab"></a>Collaborators
 
-To address the second case, where stimulus information is not available, I am investigating graph-theoretic clustering methods together with information based dependency measures between individual voxels to obtain, in a purely data-driven way, areas that are activated together. 
+### University of Glasgow
 
-### <a name="proj_decoding"></a>Quantitative investigation of large population codes
+- [Philippe Schyns](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/philippeschyns/)
+- [Joachim Gross](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/joachimgross/)
+- [Guillaume Rousselet](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/guillaumerousselet/)
+- [Nicola van Rijsbergen](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/nicolavanrijsbergen/)
+- [Bruno Giordano](http://www.brunolgiordano.net/)
+- [Christoph Kayser](http://inl.ccni.gla.ac.uk/)
 
-The sensory coding properties of single cells have been well studied, using for example techniques of mutual information. 
-However, applying these techniques to larger populations of more than 50 neurons is impossible.
-I am using supervised learning algorithms to investigate the sensory coding properties of large populations of cells in auditory cortex. 
+### External
+
+- [Stefano Panzeri](http://cncs.iit.it/people/iit-unitn-neural-computation/senior-researcher/stefano-panzeri.html), IIT
+- [Daniel Chicharro](http://www.iit.it/en/people/daniel-chicharro.html),  Italian Institute of Technology 
+- [Rasmus Petersen](http://www.petersenlab.ls.manchester.ac.uk/), University of Manchester
+- [Michael Bale](http://in.umh.es/personal-detalle.aspx?personal=638), Universidad Miguel Hernández
 
 
 <p></p>
@@ -78,13 +73,31 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 
 <div id="bib" markdown="1">
 
+### <a name="2014"></a>2014
+
+* <a name="rousselet2014ecm"></a>GA Rousselet, RAA Ince, NJ van Rijsbergen and PG Schyns  
+  **Eye coding mechanisms in early human face event-related potentials**  
+  *Journal of Vision* (2014)  <b>14</b>(13);7 p. 1-24  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1167/14.13.7) \]
+* <a name="ince2014soi"></a>RAA Ince, S Panzeri and SR Schultz  
+  **Summary of information theoretic quantities**  
+  *Encyclopedia of Computational Neuroscience* (2014)    
+  \[ [LINK (arXiv)](http://arxiv.org/abs/1501.01854) \]
+* <a name="ince2014eit"></a>RAA Ince, SR Schultz and S Panzeri  
+  **Estimating information theoretic quantities**  
+  *Encyclopedia of Computational Neuroscience* (2014)    
+  \[ [LINK (arXiv)](http://arxiv.org/abs/1501.01863) \]
+* <a name="ince2014eit"></a>SR Schultz, RAA Ince and S Panzeri  
+  **Applications of information theory to analysis of neural data**  
+  *Encyclopedia of Computational Neuroscience* (2014)    
+  \[ [LINK (arXiv)](http://arxiv.org/abs/1501.01860) \]
+* <a name="panzeri2014itr"></a>S Panzeri, RAA Ince, ME Diamond and C Kayser  
+  **Reading spike timing without a clock: intrinsic decoding of spike trains**  
+  *Phil. Trans. B* (2014)  <b>369</b> 20120467  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1098/rstb.2012.0467) \]
+
 ### <a name="2013"></a>2013
 
-* <a name="bale2013pcn"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  **Population coding of naturalistic whisker motion in the thalamus by dynamic synchrony**  
-  (in preparation)
-* <a name="panzeri2013itr"></a>S Panzeri, RAA Ince, ME Diamond and C Kayser  
-  **Internal temporal references for decoding spike trains**  
-  *Phil. Trans. B* (in press)
 * <a name="ince2013ncf"></a>RAA Ince, S Panzeri and C Kayser  
   **Neural codes formed by small and temporally precise populations in auditory cortex**  
   *Journal of Neuroscience* (2013) <b>33</b>(46) p. 18277-18287  
@@ -159,13 +172,14 @@ I am using supervised learning algorithms to investigate the sensory coding prop
 <div id="subcontent" markdown="1">
 <div class="menublock" markdown="1">
 - [Top](#)
-- [Research Interests](#research)
-- [Current Projects](#projects)
+- [Research Strands](#projects)
   + [Info Tools](#proj_info)
+  + [Interactions](#proj_interactions)
   + [Info Transfer](#proj_te)
-  + [fMRI](#proj_fmri)
-  + [Pop Coding](#proj_decoding)
+  + [Misc](#proj_misc)
+- [Collaborators](#collab)
 - [Publications](#pubs)
+  + [2014](#2014)
   + [2013](#2013)
   + [2012](#2012)
   + [2011](#2011)
