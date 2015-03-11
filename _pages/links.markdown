@@ -4,14 +4,18 @@ Here are some links to products and services that I use and endorse.
 
 ## <a name="products"></a>Products
 
-* Tea: [Jing Tea](https://jingtea.com/)
-* Coffee: [Has Bean](http://www.hasbean.co.uk/)
+* [Jing Tea](https://jingtea.com/) (green and white teas)
+* [Has Bean](http://www.hasbean.co.uk/) (coffee)
+* [Uni Kuru Toga](http://www.jetpens.com/Uni-Kuru-Toga-Roulette-Model-Auto-Lead-Rotation-Mechanical-Pencil-0.5-mm-Gun-Metallic-Body/pd/6547) (auto lead rotation mechanical pencil)
+
 
 ## <a name="services"></a>Services
 
 * [Rackulous](http://www.rackulous.com/) (VPS hosting, UK)
 * [Online.net](http://www.online.net) (dedicated server hosting, France)
 * [Localphone](http://www.localphone.com) (international calls / VoIP)
+* [giffgaff](http://giffgaff.com) (UK mobile phone SIM)
+* [ReadySIM](http://www.readysim.com) (short term US moile phone SIM)
 * [Simplenote](http://simplenote.com/) (sync text based notes)
 * [Dropbox](http://www.dropbox.com/) (file sharing)
 * [Asana](http://asana.com) (project management)
@@ -30,6 +34,7 @@ Here are some links to products and services that I use and endorse.
 * [QuickSilver](http://www.blacktree.com/) (smart launcher/search)
 * [iTerm2](http://iterm2.com/) (os x terminal)
 * [Audio Hijack](https://www.rogueamoeba.com/audiohijackpro/) with [Canz3d](http://www.midnightwalrus.com/Canz3D/) (spatial simulation for headphone listening)
+* [Plex](https://plex.tv/) (media server)
 * [Matlab](http://www.mathworks.co.uk/products/matlab/index.html) 
 * [Python](https://store.continuum.io/cshop/anaconda/)
 
