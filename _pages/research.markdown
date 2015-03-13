@@ -140,7 +140,7 @@ I believe combining them provides a simple but flexible approach for task-driven
 	RAA Ince, A Mazzoni, R Petersen and S Panzeri  
 	**Open source tools for the information theoretic analysis of neural data**  
 	*Frontiers in Neuroscience* (2010) <b>4</b>:1 p. 62-70  
-	\[ [LINK (Open Access)](http://frontiersin.org/neuroscience/neuroscience/paper/10.3389/neuro.01/011.2010/) \]
+	\[ [LINK (Open Access)](http://journal.frontiersin.org/article/10.3389/neuro.01.011.2010/full) \]
 
 ### <a name="2009"></a>2009
 * <a name="ince2009otp"></a>
