@@ -11,15 +11,15 @@ Here are some links to products and services that I use and endorse.
 
 ## <a name="services"></a>Services
 
-* [Rackulous](http://www.rackulous.com/) (VPS hosting, UK)
+* [Linode](http://www.linode.com/) (VPS hosting)
 * [Online.net](http://www.online.net) (dedicated server hosting, France)
 * [Localphone](http://www.localphone.com) (international calls / VoIP)
 * [giffgaff](http://giffgaff.com) (UK mobile phone SIM)
 * [ReadySIM](http://www.readysim.com) (short term US mobile phone SIM)
 * [Simplenote](http://simplenote.com/) (sync text based notes)
 * [Dropbox](http://www.dropbox.com/) (file sharing)
-* [Asana](http://asana.com) (project management)
-* [GitHub](https://github.com/robince) (public source code)
+* [Trello](https://trello.com) (project management)
+* [GitHub](https://github.com/) (public source code)
 * [Spotify](https://www.spotify.com/uk/) (subscription music)
 * [UnoDNS](https://www2.unotelly.com/home) (region unblocking)
 * [StartSSL](https://www.startssl.com/) (free Class 1 SSL certificates)
