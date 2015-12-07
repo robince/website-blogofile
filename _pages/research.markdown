@@ -73,6 +73,26 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 <div id="bib" markdown="1">
 
+### <a name="2015"></a>2015
+
+* <a name="ince2015ttf"></a>RAA Ince, NJ van Rijsbergen, G Thur, GA Rousselet, J Gross, S Panzeri and PG Schyns  
+  **Tracing the flow of perceptual features in an algorithmic brain network**  
+  *Scientific Reports* (2015)  <b>5</b> p. 17681  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1038/srep17681) \]
+* <a name="kayser2015isr"></a>SJ Kayser, RAA Ince, J Gross and C Kayser  
+  **Irregular speech rate dissociates auditory cortical entrainment, evoked responses, and frontal alpha**  
+  *Journal of Neuroscience* (2015)  <b>35</b>(44) p. 14691-14701  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1523/JNEUROSCI.2243-15.2015) \]
+* <a name="bale2015epc"></a>MR Bale\*, RAA Ince\*, G Santagata and RS Petersen  
+  **Efficient population coding of naturalistic whisker motion in the ventro-posterior medial thalamus based on precise spike timing**  
+  *Frontiers in Neural Circuits* (2015)  <b>9</b>(50)  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.3389/fncir.2015.00050) \]
+* <a name="park2015ftd"></a>H Park, RAA Ince, PG Schyns, G Thut and J Gross  
+  **Frontal top-down signals increase coupling of auditory low-frequency oscillations to continuous speech in human listeners**  
+  *Current Biology* (2015)  <b>25</b>p. 1649-1653  
+  \[ [LINK (Open Access)](http://dx.doi.org/10.1016/j.cub.2015.04.049) \]
+
+
 ### <a name="2014"></a>2014
 
 * <a name="rousselet2014ecm"></a>GA Rousselet, RAA Ince, NJ van Rijsbergen and PG Schyns  
@@ -179,6 +199,7 @@ I believe combining them provides a simple but flexible approach for task-driven
   + [Misc](#proj_misc)
 - [Collaborators](#collab)
 - [Publications](#pubs)
+  + [2015](#2015)
   + [2014](#2014)
   + [2013](#2013)
   + [2012](#2012)
