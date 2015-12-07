@@ -29,7 +29,7 @@ I hope that information theory based approaches can complement RSA, by widening 
 
 Network level analyses of neuroimaging data are now well established. 
 However, the connectivity measures which are used to obtain functional networks are usually agnostic to specific information content; they detect the presence of communication between regions but do not account for the content of that communication (e.g. whether it is stimulus driven, task relevant etc.).
-We have developed a measure which quantifies the causal transfer *about* a specific stimulus feature.
+We have developed a measure which quantifies the causal transfer *about* a specific stimulus feature [(Ince et al. 2015)](#ince2015ttf).
 This measure is based on directed information (often called [transfer entropy](http://en.wikipedia.org/wiki/Transfer_entropy)).
 We hope this content-based functional connectivity measure will allow network analyses of neuroimaging data to focus more directly on information processing functions.
 
