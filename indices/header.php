@@ -30,7 +30,7 @@
     //   If true, the contents of an (optional) readme.html file will appear before
     //   the directory listing.  This file should be an HTML snippet; no head/body/etc
     //   tags.  You can do paragraph tags or whatever.
-    $show_readme = true;
+    $show_readme = false;
 
     // titleformat
     //   How to format the <title> tag.  %DIR is replaced with the directory path.
