@@ -73,6 +73,12 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 <div id="bib" markdown="1">
 
+### <a name="2016"></a>2016
+
+* <a name="ince2016mmr"></a>RAA Ince  
+  **Measuring multivariate redundant information with pointwise common change in surprisal**  
+  *[arXiv:1602.05063](http://arxiv.org/abs/1602.05063) [cs.IT]* (2016)
+
 ### <a name="2015"></a>2015
 
 * <a name="ince2015ttf"></a>RAA Ince, NJ van Rijsbergen, G Thur, GA Rousselet, J Gross, S Panzeri and PG Schyns  

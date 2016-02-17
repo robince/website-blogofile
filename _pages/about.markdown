@@ -1,6 +1,6 @@
 ## Bio
 
-I am currently working as a research associate in the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) at the [University of Glasgow](http://www.gla.ac.uk/), developing methods for the analysis of neuroimaging data.
+I am currently working as a research fellow in the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) at the [University of Glasgow](http://www.gla.ac.uk/), developing methods for the analysis of neuroimaging data.
 Before this, I worked at the [Max Planck Institute for Biological Cybernetics](http://www.kyb.mpg.de/) and before that I did my PhD in the Petersen lab at the University of Manchester. For my PhD I was supervised by [Rasmus Petersen](http://www.manchester.ac.uk/research/r.petersen/) and [Stefano Panzeri](http://www.iit.it/en/people/stefano-panzeri.html).
 
 I was born in Germany but grew up on the island of [Jersey](http://en.wikipedia.org/wiki/Jersey) and have dual British and US citizenship.

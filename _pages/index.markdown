@@ -1,4 +1,4 @@
-I am a research associate at the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) in [Glasgow](http://en.wikipedia.org/wiki/Glasgow).
+I am a research fellow at the [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) in [Glasgow](http://en.wikipedia.org/wiki/Glasgow).
 On this site you can find out about [me](about.html) and my [research](research.html), download some [code](code.html) that I have produced and read my [blog](blog/).  
 
 <br />
