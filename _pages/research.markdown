@@ -205,6 +205,7 @@ I believe combining them provides a simple but flexible approach for task-driven
   + [Misc](#proj_misc)
 - [Collaborators](#collab)
 - [Publications](#pubs)
+  + [2016](#2016)
   + [2015](#2015)
   + [2014](#2014)
   + [2013](#2013)
