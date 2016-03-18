@@ -7,29 +7,27 @@ I have a particular interest in practical applications of [information theoretic
 
 ### <a name="proj_info"></a>Developing information theoretic analysis tools 
 
-There are a number of technical problems that arise when trying to estimate information theoretic quantities from limited quantities of experimental data.
-One major issue is the problem of *bias,* a systematic error caused by limited sampling. 
-While many techniques have been developed to correct for this effect, implementing them can be quite involved. 
-During my PhD I developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrections for discrete (i.e. binned) data.
-Recently, I have developed a new bin-less method for estimating information theoretic quantities, which is much less sensitive to bias effects.
+Information theory provides an elegant unified statistical framework but estimating information theoretic quantities in practise from limited data is not straightforward. During my PhD I developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrected estimates for discrete (i.e. binned) data.
+
+I have recently developed a new bin-less method for estimating information theoretic quantities ([GCMI](https://github.com/robince/gcmi), [Ince et al. 2016](#ince2016asf)) which is much less sensitive to bias effects.
 This estimator is robust, computationally efficient, and is ideally suited to signals such as those recorded with [EEG](http://en.wikipedia.org/wiki/Electroencephalography) and [MEG](http://en.wikipedia.org/wiki/Magnetoencephalography).
-In particular, it allows estimation of information theoretic quantities on multivariate spaces that would not be possible with binned methods. 
+In particular, it allows estimation of information theoretic quantities on multivariate spaces that would be impossible with binned methods. 
 This allows practical estimation of quantities like interaction information (below), and [conditional mutual information](http://en.wikipedia.org/wiki/Conditional_mutual_information).
 
 ### <a name="proj_interactions"></a>Quantifying representational interactions between neuroimaging responses
 
 If two different neuroimaging responses (different spatial/temporal/spectral regions, or different recording modalities) are found to be modulated by a stimulus, a natural question is whether they represent the stimulus in the same way. 
-I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information). 
+I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information) ([Ince et al. 2016](#ince2016asf); [Ince 2016](#ince2016mmr)). 
 Redundancy indicates both responses represent the same information about the simulus. 
 Synergy indicates that the two responses convey more information together than they do alone; the relationship between them is informative.
-Currently the only analysis method which addresses these types of questions is [Representational Similarity Analysis](http://www.mrc-cbu.cam.ac.uk/methods-and-resources/toolboxes/).
-I hope that information theory based approaches can complement RSA, by widening the number of situations in which such questions can be addressed.
+Currently the only analyses methods which address these types of questions are [Representational Similarity Analysis](http://www.mrc-cbu.cam.ac.uk/methods-and-resources/toolboxes/) and the [temporal generalization decoding method](http://dx.doi.org/10.1016/j.tics.2014.01.002).
+I hope that information theoretic approaches can complement these techniques, by widening the number of situations in which such questions can be addressed.
 
-### <a name="proj_te"></a>Information transfer in MEG data
+### <a name="proj_te"></a>Information transmission in MEG data
 
 Network level analyses of neuroimaging data are now well established. 
 However, the connectivity measures which are used to obtain functional networks are usually agnostic to specific information content; they detect the presence of communication between regions but do not account for the content of that communication (e.g. whether it is stimulus driven, task relevant etc.).
-We have developed a measure which quantifies the causal transfer *about* a specific stimulus feature [(Ince et al. 2015)](#ince2015ttf).
+We have developed a measure which quantifies the causal communication *about* a specific stimulus feature [(Ince et al. 2015)](#ince2015ttf).
 This measure is based on directed information (often called [transfer entropy](http://en.wikipedia.org/wiki/Transfer_entropy)).
 We hope this content-based functional connectivity measure will allow network analyses of neuroimaging data to focus more directly on information processing functions.
 
@@ -50,13 +48,14 @@ I believe combining them provides a simple but flexible approach for task-driven
 - [Nicola van Rijsbergen](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/nicolavanrijsbergen/)
 - [Bruno Giordano](http://www.brunolgiordano.net/)
 - [Christoph Kayser](http://inl.ccni.gla.ac.uk/)
+- [Hyojin Park](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/hyojinpark/)
 
 ### External
 
 - [Stefano Panzeri](http://cncs.iit.it/people/iit-unitn-neural-computation/senior-researcher/stefano-panzeri.html), Italian Institute of Technology, Rovereto
 - [Daniel Chicharro](http://www.iit.it/en/people/daniel-chicharro.html),  Italian Institute of Technology, Rovereto
 - [Rasmus Petersen](http://www.petersenlab.ls.manchester.ac.uk/), University of Manchester
-- [Michael Bale](http://in.umh.es/personal-detalle.aspx?personal=638), Universidad Miguel Hernández, Alicante
+- [Michael Bale](http://www.sussex.ac.uk/profiles/369047), University of Sussex
 
 
 <p></p>
@@ -75,9 +74,18 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### <a name="2016"></a>2016
 
+* <a name="ince2016asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
+  **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
+  *bioRxiv preprint* (2016)  
+  [ [LINK] ](http://dx.doi.org/10.1101/043745) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
+* <a name="ince2016tds"></a>RAA Ince, K Jaworska, J Gross, S Panzeri, NJ van Rijsbergen, GA Rousselet, PG Schyns  
+  **The deceptively simple N170 reflects network information processing mechanisms involving visual feature coding and transfer across hemispheres**  
+    *bioRxiv preprint* (2016)  
+  [ [LINK] ](http://dx.doi.org/10.1101/044065)
 * <a name="ince2016mmr"></a>RAA Ince  
   **Measuring multivariate redundant information with pointwise common change in surprisal**  
-  *[arXiv:1602.05063](http://arxiv.org/abs/1602.05063) [cs.IT]* (2016)
+  *arXiv:1602.05063 [cs.IT]* (2016)  
+  [ [LINK] ](http://arxiv.org/abs/1602.05063) [ [code] ](https://github.com/robince/partial-info-decomp/)
 
 ### <a name="2015"></a>2015
 
