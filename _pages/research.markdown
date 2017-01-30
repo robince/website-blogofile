@@ -101,7 +101,7 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### <a name="2015"></a>2015
 
-* <a name="ince2015ttf"></a>RAA Ince, NJ van Rijsbergen, G Thur, GA Rousselet, J Gross, S Panzeri and PG Schyns  
+* <a name="ince2015ttf"></a>RAA Ince, NJ van Rijsbergen, G Thut, GA Rousselet, J Gross, S Panzeri and PG Schyns  
   **Tracing the flow of perceptual features in an algorithmic brain network**  
   *Scientific Reports* (2015)  <b>5</b> p. 17681  
   \[ [LINK (Open Access)](http://dx.doi.org/10.1038/srep17681) \]
