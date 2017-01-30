@@ -72,16 +72,28 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 <div id="bib" markdown="1">
 
+### <a name="2017"></a>2017
+
+* <a name="keitel2017acd"></a>A Keitel, RAA Ince, J Gross, C Kayser    
+  **Auditory cortical delta-entrainment interacts with oscillatory power in multiple fronto-parietal networks**  
+    *NeuroImage* (2017) <b>147</b> p. 32-42   
+  [ [LINK] ](http://dx.doi.org/10.1016/j.neuroimage.2016.11.062)
+
+
 ### <a name="2016"></a>2016
 
+* <a name="giordano2016col"></a>BL Giordano, RAA Ince, J Gross, S Panzeri, PG Schyns, C Kayser    
+  **Contributions of local speech encoding and functional connectivity to audio-visual speech integration**  
+    *bioRxiv* (2016)  
+  [ [LINK] ](http://dx.doi.org/10.1101/097493)
 * <a name="ince2016asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
   **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
-  *bioRxiv preprint* (2016)  
-  [ [LINK] ](http://dx.doi.org/10.1101/043745) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
+  *Human Brain Mapping* (2016)  
+  [ [LINK] ](http://dx.doi.org/10.1002/hbm.23471) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
 * <a name="ince2016tds"></a>RAA Ince, K Jaworska, J Gross, S Panzeri, NJ van Rijsbergen, GA Rousselet, PG Schyns  
   **The deceptively simple N170 reflects network information processing mechanisms involving visual feature coding and transfer across hemispheres**  
-    *bioRxiv preprint* (2016)  
-  [ [LINK] ](http://dx.doi.org/10.1101/044065)
+    *Cerebral Cortex* (2016) <b>26</b>(11) p. 4123-4135   
+  [ [LINK] ](http://dx.doi.org/10.1093/cercor/bhw196)
 * <a name="ince2016mmr"></a>RAA Ince  
   **Measuring multivariate redundant information with pointwise common change in surprisal**  
   *arXiv:1602.05063 [cs.IT]* (2016)  
@@ -213,6 +225,7 @@ I believe combining them provides a simple but flexible approach for task-driven
   + [Misc](#proj_misc)
 - [Collaborators](#collab)
 - [Publications](#pubs)
+  + [2017](#2017)
   + [2016](#2016)
   + [2015](#2015)
   + [2014](#2014)
