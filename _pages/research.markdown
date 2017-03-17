@@ -9,7 +9,7 @@ I have a particular interest in practical applications of [information theoretic
 
 Information theory provides an elegant unified statistical framework but estimating information theoretic quantities in practise from limited data is not straightforward. During my PhD I developed [pyEntropy](http://code.google.com/p/pyentropy), an open source Python library which implements a range of bias corrected estimates for discrete (i.e. binned) data.
 
-I have recently developed a new bin-less method for estimating information theoretic quantities ([GCMI](https://github.com/robince/gcmi), [Ince et al. 2016](#ince2016asf)) which is much less sensitive to bias effects.
+I have recently developed a new bin-less method for estimating information theoretic quantities ([GCMI](https://github.com/robince/gcmi), [Ince et al. 2017](#ince2017asf)) which is much less sensitive to bias effects.
 This estimator is robust, computationally efficient, and is ideally suited to signals such as those recorded with [EEG](http://en.wikipedia.org/wiki/Electroencephalography) and [MEG](http://en.wikipedia.org/wiki/Magnetoencephalography).
 In particular, it allows estimation of information theoretic quantities on multivariate spaces that would be impossible with binned methods. 
 This allows practical estimation of quantities like interaction information (below), and [conditional mutual information](http://en.wikipedia.org/wiki/Conditional_mutual_information).
@@ -17,9 +17,12 @@ This allows practical estimation of quantities like interaction information (bel
 ### <a name="proj_interactions"></a>Quantifying representational interactions between neuroimaging responses
 
 If two different neuroimaging responses (different spatial/temporal/spectral regions, or different recording modalities) are found to be modulated by a stimulus, a natural question is whether they represent the stimulus in the same way. 
-I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information) ([Ince et al. 2016](#ince2016asf); [Ince 2016](#ince2016mmr)). 
+I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap or shared information) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information) ([Ince et al. 2016](#ince2016asf)).
 Redundancy indicates both responses represent the same information about the simulus. 
 Synergy indicates that the two responses convey more information together than they do alone; the relationship between them is informative.
+However, interaction information conflates synergy and redundancy quantifying only the net resultant effect.
+A technique called the [Partial Information Decomposition](https://arxiv.org/abs/1004.2515) (PID) has been proposed to properly separate synergy and redundancy, but finding a practical implementation of the theoretical concepts has proved difficult ([Ince 2016](#ince2016mmr)).
+I propose a switch of perspective, to first decompose entropy, which reveals the cause for some of the difficulties with the PID, and provides a principled and practical alternative approach ([Ince 2017](#ince2017ped)). 
 Currently the only analyses methods which address these types of questions are [Representational Similarity Analysis](http://www.mrc-cbu.cam.ac.uk/methods-and-resources/toolboxes/) and the [temporal generalization decoding method](http://dx.doi.org/10.1016/j.tics.2014.01.002).
 I hope that information theoretic approaches can complement these techniques, by widening the number of situations in which such questions can be addressed.
 
@@ -74,11 +77,18 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### <a name="2017"></a>2017
 
+* <a name="ince2017asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
+  **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
+  *Human Brain Mapping* (2017) <b>38</b>(3) p. 1541-1573 
+  [ [LINK] ](http://dx.doi.org/10.1002/hbm.23471) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
+* <a name="ince2017ped"></a>RAA Ince  
+  **The Partial Entropy Decomposition: Decomposing multivariate entropy and mutual information via pointwise common surprisal**  
+  *arXiv:1702.01591 [cs.IT]* (2017)  
+  [ [LINK] ](http://arxiv.org/abs/1702.01591) [ [code] ](https://github.com/robince/partial-info-decomp/)
 * <a name="keitel2017acd"></a>A Keitel, RAA Ince, J Gross, C Kayser    
   **Auditory cortical delta-entrainment interacts with oscillatory power in multiple fronto-parietal networks**  
     *NeuroImage* (2017) <b>147</b> p. 32-42   
   [ [LINK] ](http://dx.doi.org/10.1016/j.neuroimage.2016.11.062)
-
 
 ### <a name="2016"></a>2016
 
@@ -86,10 +96,6 @@ I believe combining them provides a simple but flexible approach for task-driven
   **Contributions of local speech encoding and functional connectivity to audio-visual speech integration**  
     *bioRxiv* (2016)  
   [ [LINK] ](http://dx.doi.org/10.1101/097493)
-* <a name="ince2016asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
-  **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
-  *Human Brain Mapping* (2016)  
-  [ [LINK] ](http://dx.doi.org/10.1002/hbm.23471) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
 * <a name="ince2016tds"></a>RAA Ince, K Jaworska, J Gross, S Panzeri, NJ van Rijsbergen, GA Rousselet, PG Schyns  
   **The deceptively simple N170 reflects network information processing mechanisms involving visual feature coding and transfer across hemispheres**  
     *Cerebral Cortex* (2016) <b>26</b>(11) p. 4123-4135   
