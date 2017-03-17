@@ -17,11 +17,9 @@ Here are some links to products and services that I use and endorse.
 * [ReadySIM](http://www.readysim.com) (short term US mobile phone SIM)
 * [Simplenote](http://simplenote.com/) (sync text based notes)
 * [Dropbox](http://www.dropbox.com/) (file sharing)
-* [Trello](https://trello.com) (project management)
 * [GitHub](https://github.com/) (public source code)
 * [Spotify](https://www.spotify.com/uk/) (subscription music)
-* [UnoDNS](https://www2.unotelly.com/home) (region unblocking)
-* [StartSSL](https://www.startssl.com/) (free Class 1 SSL certificates)
+* [Three](http://www.three.co.uk/) (mobile phone with free european roaming)
 
 ## <a name="software"></a>Software
 
