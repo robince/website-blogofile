@@ -4,8 +4,8 @@
 
 ## Partial Information Decomposition and Partial Entropy Decomposition
 
-[This repository](https://github.com/robince/partial-info-decomp) implements the partial information decomposition, with a measure of redundancy based on pointwise common change in surprisal as described in [Ince 2016](http://arxiv.org/abs/1602.05063).
-It also includes the Partial Entropy Decomposition, implemented with an entropic redundancy measure based on pointwise common surprisal as described in [Ince 2017](http://arxiv.org/abs/1702.01591).
+[This repository](https://github.com/robince/partial-info-decomp) implements the partial information decomposition, with a measure of redundancy based on pointwise common change in surprisal as described in [Ince 2017a](http://dx.doi.org/10.3390/e19070318).
+It also includes the Partial Entropy Decomposition, implemented with an entropic redundancy measure based on pointwise common surprisal as described in [Ince 2017b](http://arxiv.org/abs/1702.01591).
 
 ## PyEntropy
 [PyEntropy](http://code.google.com/p/pyentropy/) is a Python library to implement calculation of entropy and information quantities using a range of bias correction methods. This contains the core information routines I use throughout my work, and was produced for eventual implementation as an online service in the CARMEN project. It also includes `pyentropy.maxent` - a module for computing maximum entropy solutions subject to marginal constraints over finite alphabet probability spaces using the information geometric methods of [Amari](http://www.brain.riken.jp/labs/mns/amari/home-E.html). It is an open source project hosted at Google code. See [Ince et al. (2009)](research.html#ince2009pfi) for details. The documentation, including a brief primer on entropy and information theory, is available [here](http://robince.github.com/pyentropy).

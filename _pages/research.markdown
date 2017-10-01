@@ -17,11 +17,11 @@ This allows practical estimation of quantities like interaction information (bel
 ### <a name="proj_interactions"></a>Quantifying representational interactions between neuroimaging responses
 
 If two different neuroimaging responses (different spatial/temporal/spectral regions, or different recording modalities) are found to be modulated by a stimulus, a natural question is whether they represent the stimulus in the same way. 
-I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap or shared information) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information) ([Ince et al. 2016](#ince2016asf)).
+I believe such questions can be addressed with information theoretic notions of redundancy (representational overlap or shared information) and synergy (representation in interaction); calculated through variants of [interaction information](http://en.wikipedia.org/wiki/Interaction_information) ([Ince et al. 2017](#ince2017asf)).
 Redundancy indicates both responses represent the same information about the simulus. 
 Synergy indicates that the two responses convey more information together than they do alone; the relationship between them is informative.
 However, interaction information conflates synergy and redundancy quantifying only the net resultant effect.
-A technique called the [Partial Information Decomposition](https://arxiv.org/abs/1004.2515) (PID) has been proposed to properly separate synergy and redundancy, but finding a practical implementation of the theoretical concepts has proved difficult ([Ince 2016](#ince2016mmr)).
+A technique called the [Partial Information Decomposition](https://arxiv.org/abs/1004.2515) (PID) has been proposed to properly separate synergy and redundancy, but finding a practical implementation of the theoretical concepts has proved difficult ([Ince 2017](#ince2017mmr)).
 I propose a switch of perspective, to first decompose entropy, which reveals the cause for some of the difficulties with the PID, and provides a principled and practical alternative approach ([Ince 2017](#ince2017ped)). 
 Currently the only analyses methods which address these types of questions are [Representational Similarity Analysis](http://www.mrc-cbu.cam.ac.uk/methods-and-resources/toolboxes/) and the [temporal generalization decoding method](http://dx.doi.org/10.1016/j.tics.2014.01.002).
 I hope that information theoretic approaches can complement these techniques, by widening the number of situations in which such questions can be addressed.
@@ -55,8 +55,7 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### External
 
-- [Stefano Panzeri](http://cncs.iit.it/people/iit-unitn-neural-computation/senior-researcher/stefano-panzeri.html), Italian Institute of Technology, Rovereto
-- [Daniel Chicharro](http://www.iit.it/en/people/daniel-chicharro.html),  Italian Institute of Technology, Rovereto
+- [Stefano Panzeri](https://www.iit.it/people/stefano-panzeri), Italian Institute of Technology, Rovereto
 - [Rasmus Petersen](http://www.petersenlab.ls.manchester.ac.uk/), University of Manchester
 - [Michael Bale](http://www.sussex.ac.uk/profiles/369047), University of Sussex
 
@@ -77,6 +76,10 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### <a name="2017"></a>2017
 
+* <a name="ince2017mmr"></a>RAA Ince  
+  **Measuring multivariate redundant information with pointwise common change in surprisal**  
+  *Entropy* (2017) <b>19</b>(7) p. 318  
+  [ [LINK] ](http://dx.doi.org/10.3390/e19070318) [ [code] ](https://github.com/robince/partial-info-decomp/)
 * <a name="ince2017asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
   **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
   *Human Brain Mapping* (2017) <b>38</b>(3) p. 1541-1573 
@@ -85,6 +88,10 @@ I believe combining them provides a simple but flexible approach for task-driven
   **The Partial Entropy Decomposition: Decomposing multivariate entropy and mutual information via pointwise common surprisal**  
   *arXiv:1702.01591 [cs.IT]* (2017)  
   [ [LINK] ](http://arxiv.org/abs/1702.01591) [ [code] ](https://github.com/robince/partial-info-decomp/)
+* <a name="giordano2016col"></a>BL Giordano, RAA Ince, J Gross, S Panzeri, PG Schyns, C Kayser    
+  **Contributions of local speech encoding and functional connectivity to audio-visual speech integration**  
+    *eLife* (2017) <b>6</b>  
+  [ [LINK] ](http://dx.doi.org/10.7554/eLife.24763)
 * <a name="keitel2017acd"></a>A Keitel, RAA Ince, J Gross, C Kayser    
   **Auditory cortical delta-entrainment interacts with oscillatory power in multiple fronto-parietal networks**  
     *NeuroImage* (2017) <b>147</b> p. 32-42   
@@ -92,18 +99,10 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 ### <a name="2016"></a>2016
 
-* <a name="giordano2016col"></a>BL Giordano, RAA Ince, J Gross, S Panzeri, PG Schyns, C Kayser    
-  **Contributions of local speech encoding and functional connectivity to audio-visual speech integration**  
-    *bioRxiv* (2016)  
-  [ [LINK] ](http://dx.doi.org/10.1101/097493)
 * <a name="ince2016tds"></a>RAA Ince, K Jaworska, J Gross, S Panzeri, NJ van Rijsbergen, GA Rousselet, PG Schyns  
   **The deceptively simple N170 reflects network information processing mechanisms involving visual feature coding and transfer across hemispheres**  
     *Cerebral Cortex* (2016) <b>26</b>(11) p. 4123-4135   
   [ [LINK] ](http://dx.doi.org/10.1093/cercor/bhw196)
-* <a name="ince2016mmr"></a>RAA Ince  
-  **Measuring multivariate redundant information with pointwise common change in surprisal**  
-  *arXiv:1602.05063 [cs.IT]* (2016)  
-  [ [LINK] ](http://arxiv.org/abs/1602.05063) [ [code] ](https://github.com/robince/partial-info-decomp/)
 
 ### <a name="2015"></a>2015
 
