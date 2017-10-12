@@ -44,9 +44,9 @@ Here are some links to products and services that I use and endorse.
 <div id="subcontent" markdown="1">
 <div class="menublock" markdown="1">
 * [Top](#)
-* [Products](#products)
-* [Services](#services)
 * [Software](#software)
+* [Services](#services)
+* [Products](#products)
 </div>
 </div>
 
