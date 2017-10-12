@@ -2,12 +2,20 @@
 
 Here are some links to products and services that I use and endorse.
 
-## <a name="products"></a>Products
+## <a name="software"></a>Software
 
-* [Jing Tea](https://jingtea.com/) (green and white teas)
-* [Has Bean](http://www.hasbean.co.uk/) (coffee)
-* [Uni Kuru Toga](http://www.jetpens.com/Uni-Kuru-Toga-Roulette-Model-Auto-Lead-Rotation-Mechanical-Pencil-0.5-mm-Gun-Metallic-Body/pd/6547) (auto lead rotation mechanical pencil)
-
+* [Vim](http://www.vim.org/) (text editor)
+* [Visual Studio Code](https://code.visualstudio.com/) (text editor)
+* [Fish](https://fishshell.com/) (shell)
+* [nvALT](http://brettterpstra.com/projects/nvalt/) (text notes)
+* [Synergy](http://synergy-project.org/) (share mouse and keyboard between computers)
+* [x2go](http://wiki.x2go.org/doku.php) (linux remote desktop)
+* [Zotero](https://www.zotero.org/) (bibliography management)
+* [iTerm2](http://iterm2.com/) (os x terminal)
+* [Audio Hijack](https://www.rogueamoeba.com/audiohijackpro/) with [Canz3d](http://www.midnightwalrus.com/Canz3D/) (spatial simulation for headphone listening)
+* [Plex](https://plex.tv/) (media server)
+* [Matlab](http://www.mathworks.co.uk/products/matlab/index.html) 
+* [Python](https://store.continuum.io/cshop/anaconda/)
 
 ## <a name="services"></a>Services
 
@@ -18,20 +26,18 @@ Here are some links to products and services that I use and endorse.
 * [Dropbox](http://www.dropbox.com/) (file sharing)
 * [GitHub](https://github.com/) (public source code)
 * [Spotify](https://www.spotify.com/uk/) (subscription music)
-* [Three](http://www.three.co.uk/) (mobile phone with free european roaming)
+* [Three](http://www.three.co.uk/) (mobile phone with free roaming)
 
-## <a name="software"></a>Software
+## <a name="products"></a>Products
 
-* [Vim](http://www.vim.org/) (text editor)
-* [nvALT](http://brettterpstra.com/projects/nvalt/) (text notes)
-* [Synergy](http://synergy-project.org/) (share mouse and keyboard between computers)
-* [x2go](http://wiki.x2go.org/doku.php) (linux remote desktop)
-* [Zotero](https://www.zotero.org/) (bibliography management)
-* [iTerm2](http://iterm2.com/) (os x terminal)
-* [Audio Hijack](https://www.rogueamoeba.com/audiohijackpro/) with [Canz3d](http://www.midnightwalrus.com/Canz3D/) (spatial simulation for headphone listening)
-* [Plex](https://plex.tv/) (media server)
-* [Matlab](http://www.mathworks.co.uk/products/matlab/index.html) 
-* [Python](https://store.continuum.io/cshop/anaconda/)
+* [Jing Tea](https://jingtea.com/) (green and white teas)
+* [Has Bean](http://www.hasbean.co.uk/) (coffee)
+* [Uni Kuru Toga](http://www.jetpens.com/Uni-Kuru-Toga-Roulette-Model-Auto-Lead-Rotation-Mechanical-Pencil-0.5-mm-Gun-Metallic-Body/pd/6547) (auto lead rotation mechanical pencil)
+
+
+
+
+
 
 </div>
 
