@@ -46,15 +46,16 @@ I believe combining them provides a simple but flexible approach for task-driven
 ### University of Glasgow
 
 - [Philippe Schyns](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/philippeschyns/)
-- [Joachim Gross](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/joachimgross/)
 - [Guillaume Rousselet](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/guillaumerousselet/)
 - [Nicola van Rijsbergen](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/nicolavanrijsbergen/)
-- [Bruno Giordano](http://www.brunolgiordano.net/)
-- [Christoph Kayser](http://inl.ccni.gla.ac.uk/)
-- [Hyojin Park](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/hyojinpark/)
+- Jim Kay
 
 ### External
 
+- [Joachim Gross](https://www.uni-muenster.de/OCCMuenster/members/joachim-gross.html), University of Muenster
+- [Hyojin Park](https://www.birmingham.ac.uk/staff/profiles/psychology/park-hyojin.aspx), University of Birmingham
+- [Christoph Kayser](http://www.uni-bielefeld.de/%28en%29/biologie/cns/), Bielefeld University
+- [Bruno Giordano](http://www.brunolgiordano.net/), CNRS / Aix-Marseille University
 - [Stefano Panzeri](https://www.iit.it/people/stefano-panzeri), Italian Institute of Technology, Rovereto
 - [Rasmus Petersen](http://www.petersenlab.ls.manchester.ac.uk/), University of Manchester
 - [Michael Bale](http://www.sussex.ac.uk/profiles/369047), University of Sussex
@@ -74,15 +75,36 @@ I believe combining them provides a simple but flexible approach for task-driven
 
 <div id="bib" markdown="1">
 
+### <a name="2018"></a>2018
+
+* <a name="xu2018upm"></a>T Xu, SH Scholte, RAA Ince, PG Schyns  
+  **Using psychophysical methods to understand mechanisms of face identification in a deep neural network**  
+  *CVPR* (2018)  
+  [ [LINK] ](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w39/Xu_Using_Psychophysical_Methods_CVPR_2018_paper.pdf)
+* <a name="kay2018epi"></a>JW Kay, RAA Ince  
+  **Exact partial information decompositions for Gaussian systems based on dependency constraints**  
+  *Entropy* (2018) <b>20</b> (4), p. 240  
+  [ [LINK] ](https://doi.org/10.3390/e20040240)
+* <a name="jaworska2018nps"></a>K Jaworska, F Yi, RAA Ince, NJ van Rijsbergen, PG Schyns, GA Rousselet  
+  **Neural processing of the same behaviourally relevant face features is delayed by 40ms in healthy aging**  
+  [*bioRxiv*](https://www.biorxiv.org/content/early/2018/05/18/326009)
+* <a name="zhan2018dcr"></a>J Zhan, RAA Ince, NJ van Rijsbergen, PG Schyns  
+  **Dynamic construction of reduced representations in the brain for perceptual decision behavior**  
+  [*bioRxiv*](https://www.biorxiv.org/content/early/2018/03/18/284158.abstract)  
+
 ### <a name="2017"></a>2017
 
+* <a name="kay2017pei"></a>JW Kay, RAA Ince, B Dering, WA Phillips  
+  **Partial and entropic information decompositions of a neuronal modulatory interaction**  
+  *Entropy* (2017) <b>19</b> (11) p. 560  
+  [ [LINK] ](https://doi.org/10.3390/e19110560)
 * <a name="ince2017mmr"></a>RAA Ince  
   **Measuring multivariate redundant information with pointwise common change in surprisal**  
-  *Entropy* (2017) <b>19</b>(7) p. 318  
+  *Entropy* (2017) <b>19</b> (7) p. 318  
   [ [LINK] ](http://dx.doi.org/10.3390/e19070318) [ [code] ](https://github.com/robince/partial-info-decomp/)
 * <a name="ince2017asf"></a>RAA Ince, BL Giordano, C Kayser, GA Rousselet, J Gross, PG Schyns  
   **A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula**  
-  *Human Brain Mapping* (2017) <b>38</b>(3) p. 1541-1573 
+  *Human Brain Mapping* (2017) <b>38</b> (3) p. 1541-1573  
   [ [LINK] ](http://dx.doi.org/10.1002/hbm.23471) [ [toolbox] ](https://github.com/robince/gcmi/) [ [code] ](https://github.com/robince/sensorcop)
 * <a name="ince2017ped"></a>RAA Ince  
   **The Partial Entropy Decomposition: Decomposing multivariate entropy and mutual information via pointwise common surprisal**  
@@ -96,6 +118,9 @@ I believe combining them provides a simple but flexible approach for task-driven
   **Auditory cortical delta-entrainment interacts with oscillatory power in multiple fronto-parietal networks**  
     *NeuroImage* (2017) <b>147</b> p. 32-42   
   [ [LINK] ](http://dx.doi.org/10.1016/j.neuroimage.2016.11.062)
+* <a name="park2017eav"></a>H Park, RAA Ince, PG Schyns, G Thut, J Gross  
+  **Entrained audiovisual speech integration implemented by two independent computational mechanisms: Redundancy in left posterior superior temporal gyrus and Synergy in left motor cortex**  
+  [*bioRxiv*](https://www.biorxiv.org/content/early/2017/10/25/202911)
 
 ### <a name="2016"></a>2016
 
@@ -230,6 +255,7 @@ I believe combining them provides a simple but flexible approach for task-driven
   + [Misc](#proj_misc)
 - [Collaborators](#collab)
 - [Publications](#pubs)
+  + [2018](#2018)
   + [2017](#2017)
   + [2016](#2016)
   + [2015](#2015)
