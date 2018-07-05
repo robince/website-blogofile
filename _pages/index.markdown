@@ -17,6 +17,13 @@ On this site you can find out about [me](about.html) and my [research](research.
 <div style="display:inline-block; width:40%; text-align:center">
 <a href="http://stackoverflow.com/users/136194/robince"><img src="/img/so-logo.png" alt="Stack Overflow" title="Answer me on Stack Overflow" /></a>
 </div>
+
+<br />
+<div style="display:inline-block; width:100%; text-align:center">
+<a href="https://twitter.com/drrobinince" class="twitter-follow-button" data-show-count="false">Follow @DrRobinInce</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+
 <br />
 <br />
 
